@@ -11,6 +11,9 @@ class LinkedList:
         self.tail = None
         self.hasHead = False
     
+    def len(self):
+        print(self.length)
+
     def add(self,new_data): #Add to start
         if type(new_data) == list:
             for i in new_data:
@@ -89,6 +92,5 @@ new_list = LinkedList()
 new_list.add(69)
 new_list.add(78)
 new_list.add([89,67,34])
-new_list.delete(1)
-
+new_list.len()
 new_list.printList()
