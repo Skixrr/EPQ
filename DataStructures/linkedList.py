@@ -10,16 +10,20 @@ class LinkedList:
         self.hasHead = False
     
     def add(self,new_data): #Add to start
-        if self.hasHead == False:
-            new_node = Node(new_data) #Create head node
-            new_node.next = self.head #Link to old head
-            self.head = new_node #Make into new head
-            self.tail = new_node
-            self.hasHead = True
+        if type(new_data) == list:
+            for i in new_data:
+                self.add(i)
         else:
-            new_node = Node(new_data)
-            self.tail.next = new_node
-            self.tail = self.tail.next
+            if self.hasHead == False:
+                new_node = Node(new_data) #Create head node
+                new_node.next = self.head #Link to old head
+                self.head = new_node #Make into new head
+                self.tail = new_node
+                self.hasHead = True
+            else:
+                new_node = Node(new_data)
+                self.tail.next = new_node
+                self.tail = self.tail.next
 
     def delStart(self):
         if self.head.next != None:
@@ -40,6 +44,6 @@ class LinkedList:
 new_list = LinkedList()
 new_list.add(69)
 new_list.add(78)
-new_list.add(89)
+new_list.add([89,67,34])
 
 new_list.printList()
