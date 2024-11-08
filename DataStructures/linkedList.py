@@ -91,6 +91,5 @@ class LinkedList:
 new_list = LinkedList()
 new_list.add(69)
 new_list.add(78)
-new_list.add([89,67,34])
-new_list.len()
+new_list.add([89,67,34,[3,['w']]])
 new_list.printList()
