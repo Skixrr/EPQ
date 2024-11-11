@@ -1,0 +1,31 @@
+1)
+a)
+An array is a data structer allowing multiple different pieces of information to be stored under one identifier together.
+the array lets all the data be stored contiguosly in memory.
+
+b)
+True
+this means that the button to call the lift to go up has been presson on the first floor
+
+c)
+i)
+0
+floor
+FALSE
+
+ii)
+Floor, direction
+
+d)python
+
+class LiftController:
+    def __init__(self):
+        self.lift_called = [[False,False] for _ in range(5)]
+    def supervisor_call(self,floor):
+        for i_floor in range(len(self.lift_called)):
+            for i_direction in range(len(self.lift_called[i_floor])):
+                if i_floor == floor:
+                    self.lift_called[i_floor][i_direction] = True
+                else:
+                    self.lift_called[i_floor][i_direction] = False
+    
