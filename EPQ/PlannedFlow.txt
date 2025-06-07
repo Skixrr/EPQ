@@ -1,0 +1,41 @@
+Define P vs NP:
+    Define Asymptotic Notation
+    Define P
+    Define NP
+    Explain what P = NP would mean
+    Explain what P != NP would mean
+
+Nature of proof:
+    Logic, Axioms, Formal Systems
+    Typical methods:
+        reduction
+        simulation arguments
+        formal Systems
+    - Why these are insufficient
+
+
+Relativisation:
+    Baker, Gill, Solovay (1975): Oracles A and B where P^A = NP^A, but P^B ≠ NP^B
+    Intuition: Some proof techniques work regardless of oracle
+    Implication: Any relativising technique can’t resolve P vs NP
+    
+Natural proofs:
+    Razborov & Rudich (1994)
+    Certain combinatorial techniques are too general—if they succeed, they also break cryptography
+    Connection to pseudorandom functions
+    Implication: Natural proof methods likely won’t work
+
+Algebraization:
+    Aaronson & Wigderson (2008)
+    Generalisation of relativization using low-degree polynomials
+    Some techniques algebrize but still can’t resolve P vs NP
+    Implication: Even more powerful extensions fail
+
+Conclusion:
+    Explain why these barriers mean new methods are needed
+    breifly mention geometric complexity theory and logical frameworks
+    Personal reflection
+
+
+Where possible explain graphically, simpler and uses less words
+Consider counterarguments
