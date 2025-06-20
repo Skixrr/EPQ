@@ -16,7 +16,7 @@
     \vspace*{3cm}
     
     % TITLE
-    {\Huge\bfseries What are the main theoretical barriers to resolving P vs NP? And how do relativization, natural proofs, algebraization contribute to our understanding it's difficulty?\par}
+    {\Huge\bfseries What are the main theoretical barriers to resolving P vs NP?\par}
     \vspace{1.5cm}
     
     % SUBTITLE (Optional)
@@ -34,5 +34,32 @@
     \thispagestyle{empty}
 \end{titlepage}
 
+\section*{Defining the problem}
+\begin{center}
+    \vspace*{3cm}
+    {\Huge\bfseries Defining the problem\par}
+    \vspace{0.5cm}
+    {\Large\itshape Big O-Notation\par}
+\end{center}
+
+{\Large\itshape Big O Notation\par}
+
+When shopping, there are multiple ways to collect all the items on your list.
+You might start at one end of the store and work through it methodically, which is often the most efficient - but only if your list is already sorted by store layout.
+Without planning, you might find yourself doubling back or criss-crossing the store multiple times.
+These differences in method lead to drastically different total effort.
+Similarly, the time taken depends not just on the method, but also on who is doing the shopping and how many items are on the list.
+These human and environmental factors make it impossible to measure an algorithm's speed purely in seconds.
+To address this, computer scientists use **Big O notation**, a mathematical way to describe how the number of steps an algorithm takes grows with the size of the input.
+For example, an algorithm with complexity $O(n)$ will perform at most a number of operations proportional to the length of the input list ($n$).
+An algorithm with $O(n^2)$ complexity might check each item against every other, leading to significantly more steps.
+These expressions describe the algorithm’s **asymptotic behaviour** - that is, how it scales as inputs grow very large. When this growth follows a polynomial pattern like $O(n)$ or $O(n^2)$, we say it runs in **polynomial time**, which is generally considered efficient and tractable.
+
 \end{document}
 
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+
+\end{document}
