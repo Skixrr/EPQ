@@ -74,7 +74,7 @@ We describe relationships between sets and their elements using \textbf{Set nota
 
 \begin{center}
     \vspace{0cm}
-    {\Large\itshape \textbf{P}\par}
+    {\Large\itshape P\par}
 \end{center}
 The first set in our investigation is called \textbf{P}. This set contains all problems that can be solved by an algorithm in \textbf{polynomial time} - meaning the number of steps required grows at most like $n$, $n^2$, $n^3$, etc., where $n$ is the size of the input.
 A good example is the weekly shop.
@@ -82,7 +82,7 @@ Planning the optimal route through the store may take time, but it is feasible t
 
 \begin{center}
     \vspace{0cm}
-    {\Large\itshape \textbf{NP}\par}
+    {\Large\itshape NP\par}
 \end{center}
 The (potentially larger) set \textbf{NP} stands for \textbf{nondeterministic polynomial time}. This set contains all problems where a proposed solution can be \textit{verified} in polynomial time, even if finding that solution might be difficult.
 Consider Sudoku: finding a solution from scratch may be hard, but checking whether a filled grid obeys the rules is quick. Similarly, navigating a store inefficiently still allows you to verify whether you've bought all items - even if the path wasn't optimal.
@@ -90,13 +90,15 @@ We know that $P \subseteq NP$: any problem we can solve efficiently, we can also
 
 \begin{center}
     \vspace{0cm}
-    {\Large\itshape \textbf{Our Question}\par}
+    {\Large\itshape Our Question\par}
 \end{center}
 
 This brings us to our guiding problem: \textbf{What is the relationship between $P$ and $NP$?}
 Mathematically, we know that $P$ is a subset of $NP$, but we do not know whether $P = NP$. That is, we don't know whether every efficiently verifiable problem can also be efficiently solved.
 Some mathematicians believe $\mathbf{P = NP}$ - implying that every hard-looking problem has a hidden efficient solution - while others believe $\mathbf{P \neq NP}$, suggesting some problems are inherently hard to solve even if easy to check.
 This project does not aim to resolve the question. Instead, we will explore \textit{why} it has remained unanswered for decades - and examine the theoretical barriers that prevent us from settling it.
+
+\section*{Relativization}
 
 \end{document}
 
