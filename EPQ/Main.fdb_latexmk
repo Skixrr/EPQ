@@ -1,6 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1750531274.28792 "c:/Users/richi/OneDrive/Documents/GitHub/Classword/EPQ/main.tex" "main.pdf" "main" 1750531276.35772 0
-  "c:/Users/richi/OneDrive/Documents/GitHub/Classword/EPQ/main.tex" 1750531272 6098 9b3797d359940ce82306ef8a26181054 ""
+["pdflatex"] 1751637330.45432 "c:/Users/richi/OneDrive/Documents/GitHub/Classword/EPQ/Main.tex" "Main.pdf" "Main" 1751637333.2777 0
+  "Main.aux" 1751637333 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
+  "c:/Users/richi/OneDrive/Documents/GitHub/Classword/EPQ/Main.tex" 1751637324 6096 ad974b75a39b733e3616156c70b0fa12 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1748892261 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1748892261 2840 216e6e45ad352e2456e1149f28885bee ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1748892261 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -58,9 +59,12 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1748896904 5569470 f263a82cf6bb394f5bc87b63f38b78df ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1748897497 3598370 501aa4eea603fff3a992b68c2d4104c9 ""
   "c:/texlive/2025/texmf.cnf" 1748896833 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1750531276 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
-  "main.tex" 1750531272 6098 9b3797d359940ce82306ef8a26181054 ""
+  "main.aux" 1751637333 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
+  "main.tex" 1751637324 6096 ad974b75a39b733e3616156c70b0fa12 ""
   (generated)
+  "Main.aux"
+  "Main.log"
+  "Main.pdf"
   "main.aux"
   "main.log"
   "main.pdf"
