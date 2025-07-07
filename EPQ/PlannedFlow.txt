@@ -18,6 +18,14 @@ Relativisation:
     Baker, Gill, Solovay (1975): Oracles A and B where P^A = NP^A, but P^B ≠ NP^B
     Intuition: Some proof techniques work regardless of oracle
     Implication: Any relativising technique can’t resolve P vs NP
+What to take:
+Concept                                     | Use
+| ----------------------------------------- | -------------------------------------------------
+| What is an oracle machine?                | Define clearly with metaphor (e.g. a "black box")
+| How is an oracle used in Turing machines? | Mention notation $P^A$, etc.
+| What did BGS prove in 1975?               | Use to show **why** relativizing techniques fail
+| Why is this a "barrier"?                  | Helps you frame your argument that *some proof methods are fundamentally limited* 
+
     
 Natural proofs:
     Razborov & Rudich (1994)
