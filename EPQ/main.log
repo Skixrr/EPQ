@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.2)  4 JUL 2025 14:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.2)  7 JUL 2025 19:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/richi/OneDrive/Documents/GitHub/Classword/EPQ/Main.tex
+**c:/Users/richi/OneDrive/Documents/GitHub/Classword/EPQ/main.tex
 (c:/Users/richi/OneDrive/Documents/GitHub/Classword/EPQ/main.tex
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
@@ -220,8 +220,8 @@ L3 programming layer <2025-05-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2175 strings out of 467892
- 35810 string characters out of 5438323
+ 2174 strings out of 467892
+ 35806 string characters out of 5438323
  441088 words of memory out of 5000000
  30709 multiletter control sequences out of 15000+600000
  670553 words of font info for 62 fonts, out of 8000000 for 9000
