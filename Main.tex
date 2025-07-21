@@ -99,6 +99,48 @@ Some mathematicians believe $\mathbf{P = NP}$ - implying that every hard-looking
 This project does not aim to resolve the question. Instead, we will explore \textit{why} it has remained unanswered for decades - and examine the theoretical barriers that prevent us from settling it.
 
 \section*{Relativization}
+\begin{center}
+    \vspace{0cm}
+    {\Large\itshape Introduction to Relativization\par}
+\end{center}
+One of the most important—and possibly oldest—barriers to resolving \textit{P vs NP} is known as \textit{relativization}.
+This idea was first formalized by three mathematicians in 1975, showing that a large group of mathematical proof methods face a fundamental limitation.
+This limitation lies in their inability to separate the complexity classes discussed earlier when introducing \textit{Big O Notation}.
+At its core, relativization involves measuring how these complexity classes behave when given access to an \textit{Oracle} (explored next), and how an algorithm's reasoning encounters a limit when this additional power is introduced.
+
+\begin{center}
+    \vspace{0cm}
+    {\Large\itshape Oracles\par}
+\end{center}
+As defined by Arora and Barak \cite{arora2009}:\\
+Much like the legendary Oracle of Delphi, an \textit{Oracle} in complexity theory can provide an instant solution to a given subproblem.
+It is an abstract tool—considered a 'black box'—that never reveals how it reaches its answer, only that it does.
+We refer to any \textit{Turing Machine} with access to such a tool as an \textit{Oracle Turing Machine}, which may query the oracle at any point during computation.
+A relatable example might be solving a Sudoku puzzle using a hint: the app does not explain why the hint is correct, but you trust it.
+In that moment, using this information to guide your solution makes you behave almost like an \textit{Oracle Turing Machine}.
+We denote this formally as $\mathbf{P^A}$ or $\mathbf{NP^A}$, meaning class $\mathbf{P}$ (or $\mathbf{NP}$) relative to oracle $A$.
+
+\begin{center}
+    \vspace{0cm}
+    {\Large\itshape How does it apply to a resolution?\par}
+\end{center}
+A proof technique is said to \textit{relativize} if the logic of the proof still holds when both complexity classes are given access to the same oracle.
+However, relativization as a method cannot resolve questions like $\mathbf{P = NP}$, as shown by Baker, Gill, and Solovay \cite{baker1975relativizations}.\\
+They constructed two oracles, $A$ and $B$, such that:
+\begin{itemize}
+    \item $\mathbf{P^A = NP^A}$ (i.e., relative to oracle $A$, $\mathbf{P}$ and $\mathbf{NP}$ are equal)
+    \item $\mathbf{P^B \neq NP^B}$ (i.e., relative to oracle $B$, they are distinct)
+\end{itemize}
+This demonstrates that any proof method which relativizes will yield inconsistent results depending on the oracle.
+Consequently, such techniques cannot be used to resolve \textit{P vs NP}, because they fail in certain relativized scenarios.
+This eliminates a large class of approaches and shows that any successful proof must go beyond relativization.
+
+\begin{center}
+    \vspace{0cm}
+    {\Large\itshape Reflection\par}
+\end{center}
+As Aaronson \cite{aaronson2005philosophers} argues, relativization reflects a deeper philosophical boundary.
+Just as some truths lie beyond formal proof, some complexity class separations may lie beyond the reach of techniques that relativize.
 
 
 \bibliographystyle{unsrtnat}

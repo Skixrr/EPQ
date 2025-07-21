@@ -1,8 +1,29 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{3}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Arora and Barak(2009)]{arora2009}
+Sanjeev Arora and Boaz Barak.
+\newblock \emph{Computational Complexity: A Modern Approach}.
+\newblock Cambridge University Press, 2009.
+\newblock Relativization.
+
+\bibitem[Baker et~al.(1975)Baker, Gill, and Solovay]{baker1975relativizations}
+Theodore Baker, John Gill, and Robert Solovay.
+\newblock Relativizations of the p=?np question.
+\newblock \emph{SIAM Journal on Computing}, 4\penalty0 (4):\penalty0 431--442,
+  1975.
+\newblock URL
+  \url{https://www.scribd.com/document/688253900/Relativizations-of-the-P-NP-Question-Original}.
+\newblock Relativization.
+
+\bibitem[Aaronson(2005)]{aaronson2005philosophers}
+Scott Aaronson.
+\newblock Why philosophers should care about computational complexity, 2005.
+\newblock URL \url{https://www.scottaaronson.com/papers/philos.pdf}.
+\newblock Relativization.
 
 \end{thebibliography}
