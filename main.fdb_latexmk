@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Main"] 1753135817.06138 "Main.aux" "Main.bbl" "Main" 1753305149.07206 0
-  "./references.bib" 1753135021 2037 ed7714b3311910161ea2b9cb6ab94803 ""
+["bibtex Main"] 1753616182.25615 "Main.aux" "Main.bbl" "Main" 1753616273.68108 0
+  "./references.bib" 1753523551 4365 5d0d96765b77fe75172391c21c2fec9c ""
   "C:/Program Files/MiKTeX/bibtex/bst/natbib/unsrtnat.bst" 1284455456 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "Main.aux" 1753305148 372 1f29f4d10f95f88361a07c847a52e9b4 "pdflatex"
+  "Main.aux" 1753616273 372 071fe8c29c8ed424ab8196af54505bb5 "pdflatex"
   (generated)
   "Main.bbl"
   "Main.blg"
   (rewritten before read)
-["pdflatex"] 1753305147.77024 "c:/Users/Skixrr/Documents/GitHub/Classwork/Main.tex" "Main.pdf" "Main" 1753305149.07296 0
+["pdflatex"] 1753616272.66768 "c:/Users/Skixrr/Documents/GitHub/Classwork/Main.tex" "Main.pdf" "Main" 1753616273.68182 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1256929440 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc" 1256929440 2840 216e6e45ad352e2456e1149f28885bee ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc" 1256929440 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -69,10 +69,10 @@
   "C:/Program Files/MiKTeX/tex/latex/titling/titling.sty" 1252048308 7358 95ac619994bd30d405a74f3eca431c84 ""
   "C:/Users/Skixrr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1753132414 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Skixrr/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753132908 13244249 631a9b2f89452b38392ff06c067b6f32 ""
-  "Main.aux" 1753305148 372 1f29f4d10f95f88361a07c847a52e9b4 "pdflatex"
-  "Main.bbl" 1753135817 1150 a3c99a4e05622ffd5d72256eacf06e53 "bibtex Main"
-  "Main.tex" 1753305146 9186 4bcfed4ebe78b88c427bc0a81304180c ""
-  "c:/Users/Skixrr/Documents/GitHub/Classwork/Main.tex" 1753305146 9186 4bcfed4ebe78b88c427bc0a81304180c ""
+  "Main.aux" 1753616273 372 071fe8c29c8ed424ab8196af54505bb5 "pdflatex"
+  "Main.bbl" 1753616182 1150 a3c99a4e05622ffd5d72256eacf06e53 "bibtex Main"
+  "Main.tex" 1753616271 12112 c80df25c038cbd6ada4842927b5df9c8 ""
+  "c:/Users/Skixrr/Documents/GitHub/Classwork/Main.tex" 1753616271 12112 c80df25c038cbd6ada4842927b5df9c8 ""
   (generated)
   "Main.aux"
   "Main.log"
