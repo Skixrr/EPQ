@@ -41,6 +41,8 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/titling/titling.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/titling/titling.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/natbib/natbib.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/natbib/natbib.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/url/url.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/url/url.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -64,7 +66,12 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmri12.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm
+INPUT ./CoverPhoto.jpg
+INPUT ./CoverPhoto.jpg
+INPUT ./CoverPhoto.jpg
+INPUT ./CoverPhoto.jpg
 OUTPUT Main.pdf
+INPUT ./CoverPhoto.jpg
 INPUT c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
@@ -92,11 +99,12 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/ts1-lmr12.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
-INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
-INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmri12.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmbx8.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmbx6.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
+INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmri12.tfm
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
@@ -109,6 +117,7 @@ INPUT Main.aux
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx8.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb
+INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb

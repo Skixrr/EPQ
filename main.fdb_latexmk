@@ -1,16 +1,17 @@
 # Fdb version 4
-["bibtex main"] 1753700659.45342 "main.aux" "main.bbl" "main" 1753700667.10971 0
-  "./references.bib" 1753700637 4365 5d0d96765b77fe75172391c21c2fec9c ""
+["bibtex main"] 1753706278.29527 "main.aux" "main.bbl" "main" 1753717511.37924 0
+  "./references.bib" 1753705531 2183 13cebecc15f29e41ab8ac935bc0188a4 ""
   "c:/texlive/2025/texmf-dist/bibtex/bst/natbib/unsrtnat.bst" 1748892996 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "main.aux" 1753700663 372 071fe8c29c8ed424ab8196af54505bb5 ""
+  "main.aux" 1753717509 523 9e984906357a83c6552d9f7d2cf86aaf ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1753700661.1698 "c:/Users/richi/OneDrive/Documents/GitHub/Classword/Main.tex" "Main.pdf" "Main" 1753700667.11227 0
-  "Main.aux" 1753700663 372 071fe8c29c8ed424ab8196af54505bb5 "pdflatex"
-  "Main.tex" 1753700637 12112 c80df25c038cbd6ada4842927b5df9c8 ""
-  "c:/Users/richi/OneDrive/Documents/GitHub/Classword/Main.tex" 1753700637 12112 c80df25c038cbd6ada4842927b5df9c8 ""
+["pdflatex"] 1753717507.22235 "c:/Users/richi/OneDrive/Documents/GitHub/Classword/Main.tex" "Main.pdf" "Main" 1753717511.38011 0
+  "CoverPhoto.jpg" 1753701013 270892 950b74a64c6b3c18b6f0e836b6179757 ""
+  "Main.aux" 1753717509 523 9e984906357a83c6552d9f7d2cf86aaf "pdflatex"
+  "Main.tex" 1753717502 15843 37e09c5cf3eb670d2a23f7f2b88e3610 ""
+  "c:/Users/richi/OneDrive/Documents/GitHub/Classword/Main.tex" 1753717502 15843 37e09c5cf3eb670d2a23f7f2b88e3610 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1748892261 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1748892261 2840 216e6e45ad352e2456e1149f28885bee ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1748892261 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -38,6 +39,7 @@
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb" 1748892261 116908 9a7a12d1e4df280ea0ab4aad83cdef88 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx8.pfb" 1748892261 125241 791aeb35ceacc2764a175b32709cc6a9 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb" 1748892261 30696 3da7e46ecf5615eedebd9f27dab4d9d7 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb" 1748892261 30635 833ec815d446ec453a4913fc26d24cbc ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb" 1748892261 113634 9384aebdf26f9881e046a4b5574566db ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb" 1748892261 119752 1bd8d06e4079df624bf59ce3ad7c9aa6 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb" 1748892261 122174 a2d5e73f396ddbeb3bdf5c79aea0993d ""
@@ -70,11 +72,12 @@
   "c:/texlive/2025/texmf-dist/tex/latex/natbib/natbib.sty" 1748892996 45456 1c8843383c0bd05870c45fa0ebea6cc2 ""
   "c:/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty" 1748895046 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "c:/texlive/2025/texmf-dist/tex/latex/titling/titling.sty" 1748895979 7358 95ac619994bd30d405a74f3eca431c84 ""
+  "c:/texlive/2025/texmf-dist/tex/latex/url/url.sty" 1748896361 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "c:/texlive/2025/texmf-dist/web2c/texmf.cnf" 1748888057 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1748896904 5569470 f263a82cf6bb394f5bc87b63f38b78df ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1748897497 3598370 501aa4eea603fff3a992b68c2d4104c9 ""
   "c:/texlive/2025/texmf.cnf" 1748896833 713 e69b156964470283e0530f5060668171 ""
-  "main.bbl" 1753700661 1117 5242141ca92cb63fd099886118cfdc41 "bibtex main"
+  "main.bbl" 1753706279 1330 cadd2b5b31461133cf36711f546f4c4f "bibtex main"
   (generated)
   "Main.aux"
   "Main.log"

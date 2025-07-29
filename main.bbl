@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{4}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -23,5 +23,10 @@ Scott Aaronson.
 \newblock Why philosophers should care about computational complexity, 2005.
 \newblock URL \url{https://www.scottaaronson.com/papers/philos.pdf}.
 \newblock Relativization.
+
+\bibitem[Razborov and Rudich(1997)]{razborov1994}
+Alexander Razborov and Steven Rudich.
+\newblock Natural proofs.
+\newblock \emph{Journal of Computer and System Sciences}, 55\penalty0 (1):\penalty0 24--35, 1997.
 
 \end{thebibliography}
