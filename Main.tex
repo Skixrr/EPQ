@@ -143,7 +143,7 @@ As defined by \cite{arora2009}:\\
 Much like the legendary Oracle of Delphi, an \textit{Oracle} in complexity theory can provide an instant solution to a given subproblem.
 It is an abstract tool—considered a 'black box'—that never reveals how it reaches its answer, only that it does.
 We refer to any \textit{Turing Machine} with access to such a tool as an \textit{Oracle Turing Machine}, which may query the oracle at any point during computation.
-A relatable example might be solving a Sudoku puzzle using a hint: the app does not explain why the hint is correct, but you trust it.
+A relatable instance could be whilst driving you use a GPS, this tool does not show you how it gets it's result however you will tend to trust it.
 In that moment, using this information to guide your solution makes you behave almost like an \textit{Oracle Turing Machine}.
 We denote this formally as $\mathbf{P^A}$ or $\mathbf{NP^A}$, meaning class $\mathbf{P}$ (or $\mathbf{NP}$) relative to oracle $A$.
 
@@ -196,6 +196,35 @@ If we can do this, we may be able to show that $f \notin \mathbf{P}$.
 
 \begin{center}
     \vspace{0cm}
+    {\Large\itshape Circuit Complexity\par}
+\end{center}
+Before diving deeper into the limitations of Natural Proofs, we must take a step back and understand one of the main battlegrounds for proving $\mathbf{P \ne NP}$ - \textbf{circuit complexity}.
+Refer to our Salesman.
+Suppose instead of solving each map manually, they could build a dedicated machine for each map size - a custom calculator of sorts made entirely of logic gates (AND, OR, NOT).
+This machine would take a list of towns and output the shortest route.
+In computational terms, this machine is a \textbf{Boolean circuit}.
+Circuits don't run sequentially like an algorithm.
+They are a set arrengement of gates that perform a binary operation.
+Each value of $n$ gets a seperate circtuit.
+We intend to keep these circtuits small.
+If we can prove that no small circuit can satisfy a problem we have proven that the problem does not lie in $P$.
+In doing so proving $\mathbf{P \ne NP}$.
+\vspace{0.2cm}
+\textbf{Formally:}
+The \textit{circuit complexity} $C(f)$ of a Boolean function $f : \{0,1\}^n \rightarrow \{0,1\}$ is the size of the smallest Boolean circuit that computes $f$ correctly on all inputs.
+\vspace{0.1cm}
+Referring back to our Salesman, if th4 smallest circuit they can build for the TSP grows faster than any polynomial in $n$, this proves that we need \textit{super-polynomial} resources.
+This would strongly suggest $\mathbf{P \ne NP}$.
+\vspace{0.2cm}
+Despite decades of mathemeticians attempting to prove the lower bounds of problems in $\mathbf{NP}$, it has proven difficult.
+Many of the proof techniques used are considered \textit{Natural}.
+\begin{quote}
+    "If we can prove that no small circuit solves a problem, we show that even the smartest shortcut-the most efficient mental 'machine'—won't help our Salesman beat the clock."\\
+    - Inspired by  \cite{fortnow2009status}
+\end{quote}
+
+\begin{center}
+    \vspace{0cm}
     {\Large\itshape Pseudorandom Functions\par}
 \end{center}
 Pseudorandom Functions (PRFs) are a core idea in cryptography.  
@@ -217,7 +246,8 @@ They don't just solve $P \neq NP$ - they break the internet along the way.
 \end{center}
 In 1994, Alexander Razborov and Steven Rudich published a result that fundamentally changed how we think about proving lower bounds \cite{razborov1994}.
 They showed that if secure pseudorandom functions exist - something almost all of cryptography relies on - then Natural Proofs cannot be used to separate $\mathbf{P}$ from $\mathbf{NP}$.
-This was a shock. Many earlier techniques for proving circuit lower bounds turned out to be \textit{natural} - they were efficient to check and applied to a wide range of functions.  
+This was a shock.
+Many earlier techniques for proving circuit lower bounds turned out to be \textit{natural} - they were efficient to check and applied to a wide range of functions.  
 But Razborov and Rudich proved that any such natural method could be turned against cryptography: it would allow you to distinguish a pseudorandom function from a truly random one.
 That's not just proving $\mathbf{P \ne NP}$.
 That's breaking encryption.  

@@ -1,17 +1,17 @@
 # Fdb version 4
-["bibtex main"] 1753706278.29527 "main.aux" "main.bbl" "main" 1753717511.37924 0
+["bibtex main"] 1753897201.40944 "main.aux" "main.bbl" "main" 1753897212.29048 0
   "./references.bib" 1753705531 2183 13cebecc15f29e41ab8ac935bc0188a4 ""
   "c:/texlive/2025/texmf-dist/bibtex/bst/natbib/unsrtnat.bst" 1748892996 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "main.aux" 1753717509 523 9e984906357a83c6552d9f7d2cf86aaf ""
+  "main.aux" 1753897209 606 b281592d399735f744165e4933eb9c0f ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1753717507.22235 "c:/Users/richi/OneDrive/Documents/GitHub/Classword/Main.tex" "Main.pdf" "Main" 1753717511.38011 0
+["pdflatex"] 1753897207.53167 "c:/Users/richi/OneDrive/Documents/GitHub/Classword/Main.tex" "Main.pdf" "Main" 1753897212.29133 0
   "CoverPhoto.jpg" 1753701013 270892 950b74a64c6b3c18b6f0e836b6179757 ""
-  "Main.aux" 1753717509 523 9e984906357a83c6552d9f7d2cf86aaf "pdflatex"
-  "Main.tex" 1753717502 15843 37e09c5cf3eb670d2a23f7f2b88e3610 ""
-  "c:/Users/richi/OneDrive/Documents/GitHub/Classword/Main.tex" 1753717502 15843 37e09c5cf3eb670d2a23f7f2b88e3610 ""
+  "Main.aux" 1753897209 606 b281592d399735f744165e4933eb9c0f "pdflatex"
+  "Main.tex" 1753897205 17795 030b67f09b2485a6d38c08bb1b82b04b ""
+  "c:/Users/richi/OneDrive/Documents/GitHub/Classword/Main.tex" 1753897205 17795 030b67f09b2485a6d38c08bb1b82b04b ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1748892261 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1748892261 2840 216e6e45ad352e2456e1149f28885bee ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1748892261 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -77,7 +77,7 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1748896904 5569470 f263a82cf6bb394f5bc87b63f38b78df ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1748897497 3598370 501aa4eea603fff3a992b68c2d4104c9 ""
   "c:/texlive/2025/texmf.cnf" 1748896833 713 e69b156964470283e0530f5060668171 ""
-  "main.bbl" 1753706279 1330 cadd2b5b31461133cf36711f546f4c4f "bibtex main"
+  "main.bbl" 1753897202 1620 166059f2fcfceb5ac1ccc5aebec0e41d "bibtex main"
   (generated)
   "Main.aux"
   "Main.log"
