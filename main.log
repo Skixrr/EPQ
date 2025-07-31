@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.2)  31 JUL 2025 10:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.2)  31 JUL 2025 12:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -234,15 +234,21 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 [4]
 
-[5] (./main.bbl
+[5]
 
 [6]
+
+[7]
+
+[8] (./main.bbl
+
+[9]
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 18.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
 
-[7
+[10
 
 {c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}] (./Main.aux)
  ***********
@@ -251,18 +257,18 @@ L3 programming layer <2025-05-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2686 strings out of 467892
- 42727 string characters out of 5438323
- 449581 words of memory out of 5000000
- 31204 multiletter control sequences out of 15000+600000
+ 2689 strings out of 467892
+ 42817 string characters out of 5438323
+ 449641 words of memory out of 5000000
+ 31207 multiletter control sequences out of 15000+600000
  675081 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,8n,65p,336b,320s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Main.pdf (8 pages, 485595 bytes).
+Output written on Main.pdf (11 pages, 494435 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

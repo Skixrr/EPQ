@@ -306,6 +306,123 @@ The scanner is too powerful to be safely used.
 
 This result doesn't resolve the central question - but it tells us something just as important:
 If $\mathbf{P \ne NP}$, then the path to proving it must avoid a large class of techniques.
+\vspace{3cm}
+\section*{Prerequesites to Algebraization}
+Please note to the reader that this section may repeat some existing topics however the topics below are vital to our final barrier that it will prove beneficial to remind ourselves of them in depth.
+
+\begin{center}
+    \vspace{0cm}
+    {\Large\itshape Boolean Circuits... Again\par}
+\end{center}
+To recap:\\
+Previously, we met our Salesman and imagined that they could build a machine to solve each map.
+This machine is not a computer in our sense, it does not run lines sequentially.
+Instead, it is a physical circuit composed of 'simple' logic gates like AND, OR, and NOT.
+These gates are arranged in a fixed pattern to solve one specific problem.
+This model is known as a \textbf{Boolean circuit}.
+Each circuit is designed for a single input size $n$.
+Therefore, a circtuit to solve 5 towns is different to 6.\\
+This allows us to show that: No matter how ingenius we are, any circuit that solves a problem like TSP must be enormous, then we have shown the problem to be fundamentally difficult.
+We call this proving a \textit{Lower Bound}
+Allowing us to answer the question of "even with custom hardware, how complex is the problem?"
+Boolean circuits have given us conctrete methods to measure difficulty.
+But in order to develop this idea further researchers began looking for more flexible and powerful tools.
+Leading us to Oracles.
+
+\begin{center}
+    \vspace{0cm}
+    {\Large\itshape Relativization: algorithms with Oracles\par}
+\end{center}
+Our Salesman is struggling to find the best route.
+Instead of working it out themselves, they have been given access to a magical helper that can answer a question at any given time.
+This helper is called an \textit{Oracle}
+An Oracle does not explainits logic.
+Simply responds with a boolean value (True or False) instantly.\\
+"Is this route shorter than that one?" --- False\\
+This Oracle changes the rules of our problem entirely.
+The Salesman has just became significantly more powerful.
+They can now build strategies that would be too difficult to compute themselves with the aid of their new magical helper.
+Within Computer science, we represent complexity classes like: $\mathbf{P^A}$ or $\mathbf{NP^A}$ - Meaning te class $\mathbf{P}$ or $\mathbf{NP}$ when given access to the Oracle $A$.
+We then say that a proof relativizes if it works regardless of an Oracles presence.\\
+There is a twist to this however.
+In 1975, Baker, Gill, and Solovay showed that some oracles make $\mathbf{P = NP}$, and others make $\mathbf{P \ne NP}$ \citep{baker1975relativizations}.
+That means any proof technique that still works no matter what Oracle you add — any technique that relativizes — can’t possibly settle the question. It gives contradictory results depending on the Oracle.
+As noted by \cite{arora2009}, relativization "applies to many known techniques" and explains why "some previously promising approaches are unlikely to resolve $\mathbf{P \ne NP}$".
+\begin{quote}
+    “Relativizing techniques are too blunt — they treat all oracles equally, even when the truth depends on which Oracle you choose.”\\
+    - Paraphrased from \cite{baker1975relativizations}
+\end{quote}
+So giving the Salesman a magic assistant makes them more powerful, it also reveals that many of our traditional methods of proof hit a ceiling, including those using Circuits.
+If they \textit{relatavize} they cannot prove  $\mathbf{P \ne NP}$.
+To proceed further, we need tools that \textit{don't relativize}.
+This is where algebra begins to enter the spotlight,
+
+\begin{center}
+    \vspace{0cm}
+    {\Large\itshape Arithmetization\par}
+\end{center}
+Our Salesman so far has used logic gates and Oracles, boolean values and rigid machinery.
+What if they could see the problem in higher resolution?
+Instead of responding with a shallow "yes" or "no", what if they responded with a graph to explore or a map to see.
+This is the key concept behind \textbf{arithmetization}.
+Whithin complexity theory, arithmetization means transforming a boolean function, into a polynomial over a non infinite range.
+The goal is simple: turn rigid boolean logic into flexible algebra.
+Because algebra is powerful.
+With polynomials, we can interpolate values, check identities, and apply mathematical techniques that just don't work on pure logic.
+It gives us tools that are smoother and more continuous, even when applied to discrete problems.
+In the early 1990s this approach was considered revolutionary.
+researchers proved that $\mathbf{IP = PSPACE}$ - a result that shattered the barrier of relativization by using artithmetization \citep{arora2009}.
+Showing that some techniques, by stepping outside convention, could reach further than thought possible.
+\textbf{Metaphorically:}
+Imagine the GPS of our Salesman no longer is limited to just giving directions.
+It can now overlay a detailed landscape as smooth curves.
+Now you don't just know if a better path exists, they can estimate just how much better the new path is.
+\begin{quote}
+    “Arithmetization allows an algorithm to reason about a function not just at specific points, but everywhere in between — like turning a pixelated map into a continuous surface.”\\
+    - Adapted from \cite[Ch. 20.4]{arora2009}
+\end{quote}
+This method does not parallel relativization, it is significantly ahead.
+Yet, when we tried to combine this with Oracle access we discovered a new barrier.
+
+\begin{center}
+    \vspace{0cm}
+    {\Large\itshape Oracles with Algebra\par}
+\end{center}
+We know Oracles provide instant boolean results.
+We also know arithmetization allows algorithms to work with algebra instead of boolean logic. 
+What happens if we combine these?
+This is the general idea behind \textbf{algebrization}.
+Suppose our Salesman now has a magic map - an oracle - that only answers binary questions.
+But also shows them the shape of terrain.
+It reveals curves and gradients, costs and optimisations all as algebraic information.
+This new Oracle not only answers boolean problems it gives algebraic reasoning.
+In technical language: the oracle has been extended to allow access to a low-degree polynomial that agrees with the function from boolean input.
+The algorithm can now acces both the function and algebraic extension $\tilde{A}$.\\
+\vspace{0.3cm}
+This looked like the breakthrough we needed.
+After all, arithmetization had led to the remarkable result $\mathbf{IP = PSPACE}$, even though that result doesn't relativize \citep{arora2009}.
+Maybe combining these ideas could finally allow us to show $\mathbf{P \ne NP}$.
+But this hope was short-lived.
+In 2008, Arora, Barak, and Wigderson showed that even \textit{algebrizing} techniques hit the same wall \citep{arora2008algebrization}.
+They constructed special oracles where:
+\begin{itemize}
+    \item $\mathbf{P^A = NP^A}$, and
+    \item $\mathbf{P^B \ne NP^B}$
+\end{itemize}
+Meaning that any proof method that works when you give it an Oracle \textit{and} its algebraic extension - a method that \textit{algebrizes} - cannot resolve $\mathbf{P \ne NP}$.\\
+\vspace{0.3cm}
+\textbf{Metaphorically:}  
+It's like giving the Salesman a magical map that doesn't just point the way - it paints the whole landscape in equations.
+But even with this power, they still can't find a shortcut.
+No matter how detailed the map becomes, it doesn't contain the secret.
+\begin{quote}
+    “Algebrization unifies the strengths of relativization and arithmetization — and shows their combined limits.”\\
+    - Adapted from \cite{arora2008algebrization}
+\end{quote}
+For some, this result was sobering.
+It showed us that even the most powerful techniques known may not be enough, even united.
+If we are to solve $\mathbf{P \ne NP}$, we must discover a fundamentally new kind of idea.
+And that is where we turn next: to the barrier itself.
 
 \bibliographystyle{unsrtnat}
 \bibliography{references}

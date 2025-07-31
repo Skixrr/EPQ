@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{6}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -35,5 +35,11 @@ Lance Fortnow.
 Alexander Razborov and Steven Rudich.
 \newblock Natural proofs.
 \newblock \emph{Journal of Computer and System Sciences}, 55\penalty0 (1):\penalty0 24--35, 1997.
+
+\bibitem[Arora et~al.(2009)Arora, Barak, and Wigderson]{arora2008algebrization}
+Sanjeev Arora, Boaz Barak, and Avi Wigderson.
+\newblock Algebrization: A new barrier in complexity theory.
+\newblock \emph{ACM Transactions on Computation Theory (TOCT)}, 1\penalty0 (1):\penalty0 1--54, 2009.
+\newblock Originally published as ECCC TR08-112.
 
 \end{thebibliography}
