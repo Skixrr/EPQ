@@ -124,6 +124,7 @@ This brings us to our guiding problem: \textbf{What is the relationship between 
 Mathematically, we know that $P$ is a subset of $NP$, but we do not know whether $P = NP$. That is, we don't know whether every efficiently verifiable problem can also be efficiently solved.
 Some mathematicians believe $\mathbf{P = NP}$ - implying that every hard-looking problem has a hidden efficient solution - while others believe $\mathbf{P \neq NP}$, suggesting some problems are inherently hard to solve even if easy to check.
 This project does not aim to resolve the question. Instead, we will explore \textit{why} it has remained unanswered for decades - and examine the theoretical barriers that prevent us from settling it.
+\vspace{4cm}
 
 \section*{Relativization}
 \begin{center}
@@ -274,6 +275,37 @@ If it works, it breaks things it wasn't meant to break.
 That's the heart of the \cite{razborov1994} result.
 If your method is constructive (efficient) and large (applies broadly), then it's strong enough to detect pseudorandom functions - which modern cryptography says you shouldn't be able to do -\cite{arora2009}.  
 So unless we want to throw out the internet, these proof methods can't work.
+
+\begin{center}
+    \vspace{0cm}
+    {\Large\itshape Consequences of a Natural Barrier\par}
+\end{center}
+The Razborov-Rudich insight does not just crumble our hope of a proof.
+It fundamanetally changes where we have to look for a proof for $\mathbf{P \ne NP}$.
+Their proof showed us that any proof method that satisifies the criteria to be \textit{Natural} would allow us to distinguish between pseudorandom and random functions.
+Something assured to be computationally impossible under standard cryptographic assumptions.
+In short: if your proof techniques can work broadly and efficiently it is too broad to break the foundations of Cryptography.
+So unless you are willing to fundamanetally shatter the foundations of the modern internet your technique cannot be sufficient.\\
+This creates a barrier with serious consequences:
+\begin{itemize}
+    \item It disqualifies many previously successful proof techniques, especially those that proved circuit lower bounds for simpler problems.
+    \item It suggests that if $\mathbf{P \ne NP}$ is true, then any successful proof must avoid being natural - it must violate either Constructivity, Largeness, or both.
+    \item It highlights a surprising link between cryptography and complexity theory: breakthroughs in one domain may endanger assumptions in the other.
+\end{itemize}
+Return to our Salesman:
+Imagine you try to expose their inefficiency by building a test, a kind of security scanner for bad routes.
+But every time you make it strong enough to work, it starts scanning and breaking real-world encrypted data.
+In trying to catch the Salesman, you've also accidentally hacked a bank.
+The scanner is too powerful to be safely used.
+
+\begin{quote}
+    "Natural proofs aren't too weak to prove $\mathbf{P \ne NP}$ - they're too powerful.
+    They solve more than they should, and in doing so, they violate assumptions we rely on elsewhere."\\
+    - Adapted from \cite{razborov1994}
+\end{quote}
+
+This result doesn't resolve the central question - but it tells us something just as important:
+If $\mathbf{P \ne NP}$, then the path to proving it must avoid a large class of techniques.
 
 \bibliographystyle{unsrtnat}
 \bibliography{references}
