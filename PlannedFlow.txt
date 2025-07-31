@@ -33,7 +33,7 @@ Natural proofs:
     Connection to pseudorandom functions
     Implication: Natural proof methods likely won’t work
 
-Algebraization:
+Algebrization:
     Aaronson & Wigderson (2008)
     Generalisation of relativization using low-degree polynomials
     Some techniques algebrize but still can’t resolve P vs NP

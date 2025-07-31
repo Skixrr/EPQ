@@ -307,7 +307,7 @@ The scanner is too powerful to be safely used.
 This result doesn't resolve the central question - but it tells us something just as important:
 If $\mathbf{P \ne NP}$, then the path to proving it must avoid a large class of techniques.
 \vspace{3cm}
-\section*{Prerequesites to Algebraization}
+\section*{Prerequesites to Algebrization}
 Please note to the reader that this section may repeat some existing topics however the topics below are vital to our final barrier that it will prove beneficial to remind ourselves of them in depth.
 
 \begin{center}
@@ -423,6 +423,123 @@ For some, this result was sobering.
 It showed us that even the most powerful techniques known may not be enough, even united.
 If we are to solve $\mathbf{P \ne NP}$, we must discover a fundamentally new kind of idea.
 And that is where we turn next: to the barrier itself.
+
+\section*{Algebrization}
+\begin{center}
+    {\Large\itshape What is Algebrization\par}
+\end{center}
+previously we explored giving our Salesman access to an \textit{Oracle} and saw how it allowed them to bypass certain computations.
+We also saw how replacing rigid boolean with flexible logic we could achieve powerful results.
+When we combine these we get \textit{algebrization}.
+This was mentioned previously in our Prerequesite knowledge.
+
+\begin{quote}
+    “An algebrizing technique is one that works even when the algorithm can query both the function and its low-degree polynomial extension.”\\
+    - \cite{arora2008algebrization}
+\end{quote}
+A technique is formally said to \textit{algebrize} if it continues to work when both the Oracle $A$ and its low-degree extension $\tilde{A}$ are available.
+These extensions come from viewing Boolean functions no longer as black boxes but polynomials.\\ 
+Our Salesman would previously ask the GPS if a shortcut existed.
+Now they can know if a road is open and get an update on the terrain.
+This makes no mystery to be revealed with the answer and mathmatical logic behind it.
+
+\begin{center}
+    {\Large\itshape Why it mattered\par}
+\end{center}
+Until now, our Salesman had relied on his magic assistant (Oracle) or map (algebra).
+Now imaghine the power of our Salesman with both.
+They would be able to conquer his problem trivially.
+This intuition did seem strong.
+One aspect of it revolutionised with a proof near our desired overarching problem.
+And the other is an intrinsic property.
+As \cite{arora2009} note, algebrization "combines the strengths of both relativization and arithmetization", it was a natural progression from our current techniques.
+This is where the optimism runs dry unfortunately.
+
+\begin{center}
+    {\Large\itshape The Barrier itself\par}
+\end{center}
+\cite{arora2008algebrization} introduced the concept formally and then dismantled it.
+They showed us that techniques that combine the strengths of Oracles and algebraic resoning are not strong enough to resolve $\mathbf{P}$ versus $\mathbf{NP}$.  
+They constructed two oracles, $A$ and $B$, and their corresponding algebraic extensions $\tilde{A}$ and $\tilde{B}$, such that:
+\begin{itemize}
+    \item $\mathbf{P^A = NP^A}$ — relative to Oracle $A$, the two classes collapse
+    \item $\mathbf{P^B \ne NP^B}$ — relative to Oracle $B$, the separation holds
+\end{itemize}
+When algorithms were allowed to query the low-degree polynomial extensions $\tilde{A}$ and $\tilde{B}$, the results differed.
+This proved that any technique that works under algebraic Oracle access must fail to decide $\mathbf{P = NP}$.
+\begin{quote}
+    “The relativizing and arithmetizing barriers can be unified under the notion of algebrization — and this unified barrier still fails to separate complexity classes like $\mathbf{P}$ and $\mathbf{NP}$.”\\
+    - \cite{arora2008algebrization}
+\end{quote}
+
+Our Salesman is now equipped with everything - a GPS that answers instantly and a map of highest resolution.
+Despite the armoury presented they still cannot prove the existance of an efficient way to visit all the towns.
+The tools are as advanced as possible, but the truth remains obscured.
+The significance of this result not only lied in its ability to reveal a new barrier but because it showed that even \textit{hybrid methods} were still not enough.
+It unified previous barriers and then extended their failure.
+For a brief moment, algebrization felt like the next great leap.
+But it turned out to be the next great limitation.
+
+\begin{center}
+    {\Large\itshape What Algebrization tells us\par}
+\end{center}
+Our Salesman has tried everything.
+Simple algorithms.
+Oracles for instantaneous answers.
+Powerful mathmatical maps have been used.
+And even the final 2 in parallel.
+Yet we are still no closer to proving if a solution exists.
+This is the moral of our final barrier.
+Even combinations of our most powerful techniques cannot resolve $\mathbf{P}$ vs $\mathbf{NP}$ \citep{arora2008algebrization, arora2009}.\\
+\vspace{0.3cm}
+It unifies two of the greatest successes of theoretical computer science then just as swiftly, sobers us with a swift defeat in the form of a new barrier.
+Displaying the true difficulty of $\mathbf{P}$ vs $\mathbf{NP}$
+\begin{quote}
+    “Any technique that algebrizes will fail to separate $\mathbf{P}$ from $\mathbf{NP}$. This suggests the need for fundamentally new ideas.”\\
+    - \cite[Ch. 20.4]{arora2009}
+\end{quote}
+\vspace{0.3cm}
+
+\begin{center}
+    \vspace{0cm}
+    {\Large\itshape What does this mean\par}
+\end{center}
+It means that if $\mathbf{P \ne NP}$ - and many believe it is (myself included) - the proof must lie somewhere we have not yet looked.
+Somewhere beyond the barriers of this report.
+The road our Salesman needs does exist, but it is hidden behind walls our current tools cannot penetrate.
+This is not a failure for complexity theory.
+It's a challenge, a challenge to be met by future computer scientist and mathematicians.
+A new barrier does not close doors to discovery instead will leave an open window into the understanding of our world and maths itself.
+This is not discouragement but a direction and foundation to guide the next generation.
+\begin{quote}
+    "Algebrization subsumes the known barriers of relativization and natural proofs, and yet it too falls short of separating $\mathbf{P}$ from $\mathbf{NP}$. We must look elsewhere."\\
+    -\cite{arora2008algebrization}
+\end{quote}
+
+\section*{Conclusion}
+\begin{center}
+    {\Large\itshape Why the Road Remains Untraveled\par}
+\end{center}
+The heart of my project was the question "Why is the $\mathbf{P}$ vs $\mathbf{NP}$ problem still unresolved?"
+Our goal to understand how it resisted solution for over 50 years by some of history's greatest minds.
+Through the spectation of a travelling Salesment - inspired by an $NP$ problem (TSP) - we explored the best strategies computer science has developed to date.
+And through this metaphor, we saw why none of them are yet enough.
+Beginning with \textbf{Relativization} to \textbf{Natural Proofs} and their spiritual successor \textbf{Algebrization}.
+We came to the unfortunate Conclusion our techniques are not powerful enough.
+These barriers not only act as a technical limitation.
+But a statement obout knowledge itself.
+About the rules we as mathematicians must follow in order to prove something so profound.
+For our unfortunate Salesman these barriers presented themselved as physical barriers and technological limits.
+Thus is the beauty of theoretical computer science and maths.
+Each "failure" refines our understanding and each limitation marks progress.
+Increasing our knowledge of things that cannot work will increase our knowledge of what might.
+\begin{quote}
+    "Barriers are not endpoints - they are waypoints. They tell us how far we've come, and where new paths must begin."\\
+    -Inspired by themes in \cite{arora2009}
+\end{quote}
+The question of $\mathbf{P}$ versus $\mathbf{NP}$ remains one of the deepest in both Maths and Computer Science.
+And because of the work of those who identified these barriers we know something equally important.
+\textbf{We know which paths to not follow and hopefully this can lead us to the correct path.}
 
 \bibliographystyle{unsrtnat}
 \bibliography{references}
