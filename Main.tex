@@ -21,17 +21,15 @@
     {\large Centre Number: 19216\par}
     \vspace{0.7cm}
     \includegraphics[width=1\textwidth]{CoverPhoto.jpg}
-    \vspace{1cm}
     \thispagestyle{empty}
 \end{titlepage}
 
 \chapter{Defining the Problem}
 \section{Introduction To Our Case Study}
-Throughout this paper I will be making references to a theoretical Salesman.
-The details of what they are selling is irrelevant for our topic so imagine that detail at your own discretion.
-Our Salesman has one goal, visit every location at least once on a map and return home in the shortest possible time.
+Throughout this paper I will be making references to a theoretical salesman.
+The details their sales are irrelevant for our topic.
+Our salesman has one goal, visit every location at least once on a map and return home in the shortest possible time.
 Finding the correct path varies upon the layout of locations (towns) to visit and how many of these exist.
-\vspace{1cm}
 A graph (map) with trivial result can be seen here:\\
 \includegraphics[width=0.5\textwidth]{trivialTSP.png}\\
 \vspace{0.5cm}
@@ -39,24 +37,24 @@ Comparatively to this non-trivial result:\\
 \includegraphics[width=0.5\textwidth]{HarderTSP.png}
 
 \section{Big O-Notation}
-Our Salesman can go to many different towns in whichever order they wish.
+Our salesman can go to towns in whichever order they wish.
 The order however will impact the speed at which they can complete the task.
 This is the rationale behind finding the shortest path.
 Think back to our trivial case for the salesman from their introduction.
 Now instead of traversing across the line we loop back repeatedly, using more steps than neccesary.
 Whilst this will still allow the salesman to complete their rounds they will have missed dinner and be very upset.
-Similarly, the time taken depends not just on the method, but also on who the Salesman is and if they have a faster van than a different one.
-These human and environmental factors make it impossible to measure an algorithm's speed purely in seconds.
-To address this, computer scientists use \textbf{Big O notation}, a mathematical way to describe how the number of steps an algorithm takes grows with the size of the input.
+Similarly, the time taken depends not just on the method, but also on who the salesman is or if they have a faster van.
+These factors make it impossible to measure an algorithm's speed purely in seconds.
+To address this, computer scientists use \textbf{Big-O Notation}, a mathematical way to describe how the number of steps an algorithm takes grows with the size of the input.
 For example, an algorithm with complexity $O(n)$ will perform at most a number of operations proportional to the length of the input list ($n$).
-An algorithm with $O(n^2)$ complexity might check each item against every other, leading to significantly more steps.
-These expressions describe the algorithm’s \textbf{asymptotic behaviour} - that is, how it scales as inputs grow very large.
-When this growth follows a polynomial pattern like $O(n)$ or $O(n^2)$, we say it runs in \textbf{polynomial time}, which is generally considered efficient and tractable.
+An algorithm with $O(n^2)$ complexity might check each item against every other, leading to significant increase in steps.
+These expressions describe the algorithm's \textbf{asymptotic behaviour} --- that is, how it scales as inputs grow very large.
+When this growth follows a polynomial pattern like $O(n)$ or $O(n^2)$, we say it runs in \textbf{polynomial time}, generally considered efficient and tractable.
 
 \section{Sets and Set Notation}
 Earlier, we used a salesman traversing across a map to explore algorithmic strategies.
-Mathematically, the list of towns can be viewed as a \textbf{set} - a well-defined collection of distinct objects.
-In computer science and mathematics, Sets are fundamental.
+Mathematically, the list of towns can be viewed as a \textbf{set} --- a well-defined collection of distinct objects.
+Sets are fundamental within computer science and mathematics.
 A set can contain numbers, items, states, algorithms, or even other sets.
 For example, the set of paths include every possible route our salesman could take.
 The set of solutions to a problem includes all algorithms that solve it.
@@ -72,37 +70,38 @@ We describe relationships between sets and their elements using \textbf{Set nota
 
 \section{P}
 The first set in our investigation is called \textbf{P}.
-This set contains all problems that can be solved by an algorithm in \textbf{polynomial time} - meaning the number of steps required grows at most like $n$, $n^2$, $n^3$, etc., where $n$ is the size of the input.
+This set contains all problems that can be solved by an algorithm in \textbf{polynomial time} --- meaning the number of steps required grows at most like $n$, $n^2$, $n^3$, etc., where $n$ is the size of the input.
 A good example is the weekly shop.
-Planning the optimal route through the store may take time, but it is feasible to compute in polynomial time - for example, with an algorithm of complexity $O(n^2)$.
+Planning the optimal route through the store may take time, but it is feasible to compute in polynomial time --- for example, with an algorithm of complexity $O(n^2)$.
 
 \section{NP}
-The (potentially larger) set \textbf{NP} stands for \textbf{nondeterministic polynomial time}. This set contains all problems where a proposed solution can be \textit{verified} in polynomial time, even if finding that solution might be difficult.
+The (potentially larger) set \textbf{NP} stands for \textbf{nondeterministic polynomial time}.
+This set contains all problems where a proposed solution can be \textit{verified} in polynomial time, even if finding that solution might be difficult.
 Consider back to our salesman: For non-trivial cases of the problem finding the optimal path is \( O(n^2 2^n) \).
 Meaning right now we cannot solve it in polynomial time, but it can be verified in such time.
-We know that $P \subseteq NP$: any problem we can solve efficiently, we can also verify efficiently.
+We know that $P \subseteq NP$ as for any problem we can solve efficiently, we must also verify efficiently.
 Whether or not these sets are actually equal is the essence of our central question.
 
 \section{Our Question}
 This brings us to our guiding problem: \textbf{What is the relationship between $P$ and $NP$?}
-Mathematically, we know that $P$ is a subset of $NP$, but we do not know whether $P = NP$. That is, we don't know whether every efficiently verifiable problem can also be efficiently solved.
-Some mathematicians believe $\mathbf{P = NP}$ - implying that every hard-looking problem has a hidden efficient solution - while others believe $\mathbf{P \neq NP}$, suggesting some problems are inherently hard to solve even if easy to check.
-This project does not aim to resolve the question. Instead, we will explore \textit{why} it has remained unanswered for decades - and examine the theoretical barriers that prevent us from settling it.
-
+Mathematically, we know that $P$ is a subset of $NP$, but we do not know whether $P = NP$.
+That is, we don't know whether every efficiently verifiable problem can also be efficiently solved.
+Some mathematicians believe $\mathbf{P = NP}$ --- implying that every hard-looking problem has a hidden efficient solution --- while others believe $\mathbf{P \neq NP}$, suggesting some problems are inherently hard to solve even if easy to check.
+This project does not aim to resolve the question.
+Instead, we will explore \textit{why} it has remained unanswered for decades --- and examine the theoretical barriers that prevent us from settling it.
 
 \newpage
 \chapter{Relativization}
 \subsection{Introduction to Relativization}
-One of the most important—and possibly oldest—barriers to resolving \textit{P vs NP} is known as \textit{relativization}.
+One of the most important --- and possibly oldest --- barriers to resolving \textit{P vs NP} is known as \textit{relativization}.
 This idea was first formalized by three mathematicians in 1975, showing that a large group of mathematical proof methods face a fundamental limitation.
 This limitation lies in their inability to separate the complexity classes discussed earlier when introducing \textit{Big O Notation}.
-At its core, relativization involves measuring how these complexity classes behave when given access to an \textit{Oracle} (explored next), and how an algorithm's reasoning encounters a limit when this additional power is introduced.
-
+At its core, relativization involves measuring how these complexity classes behave when given access to an \textit{"Oracle"}, and how an algorithm's reasoning encounters a limit when this additional power is introduced.
 
 \section{Oracles}
-As defined by \cite{arora2009}:\\
+Defined by \cite{arora2009}:\\
 Much like the legendary Oracle of Delphi, an \textit{Oracle} in complexity theory can provide an instant solution to a given subproblem.
-It is an abstract tool—considered a 'black box'—that never reveals how it reaches its answer, only that it does.
+It is an abstract tool—considered a 'black box' --- that never reveals how it reaches its answer, only that it does.
 We refer to any \textit{Turing Machine} with access to such a tool as an \textit{Oracle Turing Machine}, which may query the oracle at any point during computation.
 A relatable instance could be whilst driving you use a GPS, this tool does not show you how it gets it's result however you will tend to trust it.
 In that moment, using this information to guide your solution makes you behave almost like an \textit{Oracle Turing Machine}.
@@ -134,105 +133,104 @@ A property $\mathcal{P}$ is said to be \textbf{natural} if:
     \item \textbf{Largeness}: A non-negligible portion of all Boolean functions satisfy $\mathcal{P}$.
 \end{itemize}
 This is best described by analogy.  
-Imagine you're an English teacher - a strict one - who sets an essay for homework every lesson. You begin to suspect several students are using AI to write their essays.  
+Imagine you're an English teacher --- a strict one --- who sets an essay for homework every lesson. You begin to suspect several students are using AI to write their essays.  
 To catch them, you develop an algorithm that detects AI-generated writing. Maybe it looks for excessive use of em-dashes or unnatural phrasing.
 This algorithm is simple and can be applied to \textit{every} essay you mark.  
 However, once students realise how it works, they adapt their writing style to evade detection.  
 This captures the flaw with Constructivity: if your method is too effective and too public, it can be countered.
-Largeness suffers a related issue. If your detection method works on too \textit{many} types of cheating - copied essays, paraphrasing, ChatGPT, etc. - then you're likely catching even legitimate work, or again being too general to be reliable.
+Largeness suffers a related issue. If your detection method works on too \textit{many} types of cheating --- copied essays, paraphrasing, ChatGPT, etc. --- then you're likely catching even legitimate work, or again being too general to be reliable.
 \vspace{1cm}
 \newline
 We care whether a proof is \textit{natural} because many known lower-bound techniques are.  
-This becomes especially relevant when we're trying to prove the \textit{lower bound} of a function $f$ — that is, the fastest possible way to compute $f$.  
+This becomes especially relevant when we're trying to prove the \textit{lower bound} of a function $f$ --- that is, the fastest possible way to compute $f$.  
 If we can do this, we may be able to show that $f \notin \mathbf{P}$.
 
-
 \section{Circuit Complexity}
-Before diving deeper into the limitations of Natural Proofs, we must take a step back and understand one of the main battlegrounds for proving $\mathbf{P \ne NP}$ - \textbf{circuit complexity}.
+Before diving deeper into the limitations of Natural Proofs, we must take a step back and understand one of the main battlegrounds for proving $\mathbf{P \ne NP}$ --- \textbf{circuit complexity}.
 Refer to our Salesman.
-Suppose instead of solving each map manually, they could build a dedicated machine for each map size - a custom calculator of sorts made entirely of logic gates (AND, OR, NOT).
+Suppose instead of solving each map manually, they could build a dedicated machine for each map size --- a custom calculator of sorts made entirely of logic gates (AND, OR, NOT).
 This machine would take a list of towns and output the shortest route.
 In computational terms, this machine is a \textbf{Boolean circuit}.
 Circuits don't run sequentially like an algorithm.
-They are a set arrengement of gates that perform a binary operation.
-Each value of $n$ gets a seperate circtuit.
-We intend to keep these circtuits small.
+They are a set arrangement of gates that perform a binary operation.
+Each value of $n$ gets a separate circuit.
+We intend to keep these circuits small.
 If we can prove that no small circuit can satisfy a problem we have proven that the problem does not lie in $P$.
 In doing so proving $\mathbf{P \ne NP}$.
 \vspace{0.2cm}
 \textbf{Formally:}
 The \textit{circuit complexity} $C(f)$ of a Boolean function $f : \{0,1\}^n \rightarrow \{0,1\}$ is the size of the smallest Boolean circuit that computes $f$ correctly on all inputs.
 \vspace{0.1cm}
-Referring back to our Salesman, if th4 smallest circuit they can build for the TSP grows faster than any polynomial in $n$, this proves that we need \textit{super-polynomial} resources.
+Referring back to our Salesman, if the smallest circuit they can build for the TSP grows faster than any polynomial in $n$, this proves that we need \textit{super-polynomial} resources.
 This would strongly suggest $\mathbf{P \ne NP}$.
 \vspace{0.2cm}
 Despite decades of mathemeticians attempting to prove the lower bounds of problems in $\mathbf{NP}$, it has proven difficult.
 Many of the proof techniques used are considered \textit{Natural}.
 \begin{quote}
-    "If we can prove that no small circuit solves a problem, we show that even the smartest shortcut-the most efficient mental 'machine'—won't help our Salesman beat the clock."\\
-    - Inspired by  \cite{fortnow2009status}
+    "If we can prove that no small circuit solves a problem, we show that even the smartest shortcut-the most efficient mental 'machine' --- won't help our Salesman beat the clock."\\
+    - Inspired by \cite{fortnow2009status}
 \end{quote}
 
 \section{Pseudorandom Functions}
 Pseudorandom Functions (PRFs) are a core idea in cryptography.  
 They are functions that look random, but are actually completely deterministic.  
-To anyone without the secret key, the outputs seem unpredictable - even though they're generated by a fixed rule.
+To anyone without the secret key, the outputs seem unpredictable --- even though they're generated by a fixed rule.
 This idea is essential for secure communication.  
 If you can't tell the difference between a random number and one generated by a PRF, then you also can't reverse-engineer passwords, decode messages, or guess encryption keys.
 Here's the link to Natural Proofs:  
-If you had a proof method that could tell whether a function was “hard” (i.e., had no small circuit), and that method was both constructive and large - then it could also be used to tell **whether a function was pseudorandom**.
+If you had a proof method that could tell whether a function was “hard” (i.e., had no small circuit), and that method was both constructive and large --- then it could also be used to tell **whether a function was pseudorandom**.
 This would be catastrophic. 
 The ability to tell whether something is pseudorandom is exactly what modern cryptography tries to prevent.
-So, if PRFs exist - and almost every encryption system assumes they do - then Natural Proofs can't work.  
+So, if PRFs exist - and almost every encryption system assumes they do --- then Natural Proofs can't work.  
 They're too strong.  
-They don't just solve $P \neq NP$ - they break the internet along the way.
+They don't just solve $P \neq NP$ --- they break the internet along the way.
 
 \section{Razborov Rudich Insight}
 In 1994, Alexander Razborov and Steven Rudich published a result that fundamentally changed how we think about proving lower bounds \cite{razborov1994}.
-They showed that if secure pseudorandom functions exist - something almost all of cryptography relies on - then Natural Proofs cannot be used to separate $\mathbf{P}$ from $\mathbf{NP}$.
+They showed that if secure pseudorandom functions exist --- something almost all of cryptography relies on --- then Natural Proofs cannot be used to separate $\mathbf{P}$ from $\mathbf{NP}$.
 This was a shock.
-Many earlier techniques for proving circuit lower bounds turned out to be \textit{natural} - they were efficient to check and applied to a wide range of functions.  
+Many earlier techniques for proving circuit lower bounds turned out to be \textit{natural} --- they were efficient to check and applied to a wide range of functions.  
 But Razborov and Rudich proved that any such natural method could be turned against cryptography: it would allow you to distinguish a pseudorandom function from a truly random one.
 That's not just proving $\mathbf{P \ne NP}$.
 That's breaking encryption.  
-Since we assume pseudorandom functions exist, it must mean that \textbf{natural proofs can't work} - not because they're weak, but because they're too powerful.
+Since we assume pseudorandom functions exist, it must mean that \textbf{natural proofs can't work} --- not because they're weak, but because they're too powerful.
 As summarised in \cite{arora2009}, if a proof method is constructive and large, and still manages to prove a circuit lower bound for functions in $\mathbf{NP}$, it must also contradict the existence of pseudorandom functions.
 This means that the search for new lower-bound techniques must avoid being \textit{natural} in this precise technical sense - a significant restriction.
 
 \section{An Analogy}
 Imagine you're running airport security.  
-You build a fast, effective scanner that flags any suspicious-looking bag based on known patterns - \textit{density, shape, wiring}.
+You build a fast, effective scanner that flags any suspicious-looking bag based on known patterns --- \textit{density, shape, wiring}.
 It's fast enough to run on every passenger and catches most known threats.
 This is your \textit{constructive} and \textit{large} method.
 But what if attackers knew exactly how your scanner worked?  
-They could design luggage that looks perfectly normal to your algorithm - even if it's dangerous.
+They could design luggage that looks perfectly normal to your algorithm --- even if it's dangerous.
 Now, imagine someone builds a new scanner that works so well it catches even these disguised threats.
 You get excited: maybe this new system will finally make flying totally safe.
 But then someone points out a terrifying implication:  
 \textit{If this scanner works as described, it would also catch military stealth tech. Or diplomatic pouches. Or even encrypted test samples from trusted researchers.}
-In short - the scanner is \textit{too good}.  
+In short --- the scanner is \textit{too good}.  
 If it works, it breaks things it wasn't meant to break.
 That's the heart of the \cite{razborov1994} result.
-If your method is constructive (efficient) and large (applies broadly), then it's strong enough to detect pseudorandom functions - which modern cryptography says you shouldn't be able to do -\cite{arora2009}.  
+If your method is constructive (efficient) and large (applies broadly), then it's strong enough to detect pseudorandom functions --- which modern cryptography says you shouldn't be able to do --- \cite{arora2009}.  
 So unless we want to throw out the internet, these proof methods can't work.
 
 \section{Consequences of a Natural Barrier}
 The Razborov-Rudich insight does not just crumble our hope of a proof.
-It fundamanetally changes where we have to look for a proof for $\mathbf{P \ne NP}$.
+It fundamentally changes where we have to look for a proof for $\mathbf{P \ne NP}$.
 Their proof showed us that any proof method that satisifies the criteria to be \textit{Natural} would allow us to distinguish between pseudorandom and random functions.
 Something assured to be computationally impossible under standard cryptographic assumptions.
 In short: if your proof techniques can work broadly and efficiently it is too broad to break the foundations of Cryptography.
-So unless you are willing to fundamanetally shatter the foundations of the modern internet your technique cannot be sufficient.\\
+So unless you are willing to fundamentally shatter the foundations of the modern internet your technique cannot be sufficient.\\
 This creates a barrier with serious consequences:
 \begin{itemize}
     \item It disqualifies many previously successful proof techniques, especially those that proved circuit lower bounds for simpler problems.
     \item It suggests that if $\mathbf{P \ne NP}$ is true, then any successful proof must avoid being natural - it must violate either Constructivity, Largeness, or both.
     \item It highlights a surprising link between cryptography and complexity theory: breakthroughs in one domain may endanger assumptions in the other.
 \end{itemize}
-Return to our Salesman:
+Return to our salesman:
 Imagine you try to expose their inefficiency by building a test, a kind of security scanner for bad routes.
 But every time you make it strong enough to work, it starts scanning and breaking real-world encrypted data.
-In trying to catch the Salesman, you've also accidentally hacked a bank.
+In trying to catch the salesman, you've also accidentally hacked a bank.
 The scanner is too powerful to be safely used.
 
 \begin{quote}
@@ -241,7 +239,7 @@ The scanner is too powerful to be safely used.
     - Adapted from \cite{razborov1994}
 \end{quote}
 
-This result doesn't resolve the central question - but it tells us something just as important:
+This result doesn't resolve the central question --- but it tells us something just as important:
 If $\mathbf{P \ne NP}$, then the path to proving it must avoid a large class of techniques.
 \vspace{3cm}
 
@@ -251,17 +249,17 @@ Please note to the reader that this section may repeat some existing topics howe
 
 \section{Boolean Circuits... Again}
 To recap:\\
-Previously, we met our Salesman and imagined that they could build a machine to solve each map.
+Previously, we met our salesman and imagined that they could build a machine to solve each map.
 This machine is not a computer in our sense, it does not run lines sequentially.
 Instead, it is a physical circuit composed of 'simple' logic gates like AND, OR, and NOT.
 These gates are arranged in a fixed pattern to solve one specific problem.
 This model is known as a \textbf{Boolean circuit}.
 Each circuit is designed for a single input size $n$.
-Therefore, a circtuit to solve 5 towns is different to 6.\\
-This allows us to show that: No matter how ingenius we are, any circuit that solves a problem like TSP must be enormous, then we have shown the problem to be fundamentally difficult.
+Therefore, a circuit to solve 5 towns is different to 6.
+This allows us to show that: No matter how ingenious we are, any circuit that solves a problem like TSP must be enormous, then we have shown the problem to be fundamentally difficult.
 We call this proving a \textit{Lower Bound}
 Allowing us to answer the question of "even with custom hardware, how complex is the problem?"
-Boolean circuits have given us conctrete methods to measure difficulty.
+Boolean circuits have given us concrete methods to measure difficulty.
 But in order to develop this idea further researchers began looking for more flexible and powerful tools.
 Leading us to Oracles.
 
@@ -269,17 +267,18 @@ Leading us to Oracles.
 Our Salesman is struggling to find the best route.
 Instead of working it out themselves, they have been given access to a magical helper that can answer a question at any given time.
 This helper is called an \textit{Oracle}
-An Oracle does not explainits logic.
+An Oracle does not explain its logic.
 Simply responds with a boolean value (True or False) instantly.\\
 "Is this route shorter than that one?" --- False\\
 This Oracle changes the rules of our problem entirely.
-The Salesman has just became significantly more powerful.
+The salesman has just became significantly more powerful.
 They can now build strategies that would be too difficult to compute themselves with the aid of their new magical helper.
-Within Computer science, we represent complexity classes like: $\mathbf{P^A}$ or $\mathbf{NP^A}$ - Meaning te class $\mathbf{P}$ or $\mathbf{NP}$ when given access to the Oracle $A$.
+Within Computer science, we represent complexity classes like: $\mathbf{P^A}$ or $\mathbf{NP^A}$ --- Meaning the class $\mathbf{P}$ or $\mathbf{NP}$ when given access to the Oracle $A$.
 We then say that a proof relativizes if it works regardless of an Oracles presence.\\
 There is a twist to this however.
 In 1975, Baker, Gill, and Solovay showed that some oracles make $\mathbf{P = NP}$, and others make $\mathbf{P \ne NP}$ \citep{baker1975relativizations}.
-That means any proof technique that still works no matter what Oracle you add — any technique that relativizes — can’t possibly settle the question. It gives contradictory results depending on the Oracle.
+That means any proof technique that still works no matter what Oracle you add --- any technique that relativizes --- can't possibly settle the question.
+It gives contradictory results depending on the Oracle.
 As noted by \cite{arora2009}, relativization "applies to many known techniques" and explains why "some previously promising approaches are unlikely to resolve $\mathbf{P \ne NP}$".
 \begin{quote}
     “Relativizing techniques are too blunt — they treat all oracles equally, even when the truth depends on which Oracle you choose.”\\
@@ -319,12 +318,12 @@ We know Oracles provide instant boolean results.
 We also know arithmetization allows algorithms to work with algebra instead of boolean logic. 
 What happens if we combine these?
 This is the general idea behind \textbf{algebrization}.
-Suppose our Salesman now has a magic map - an oracle - that only answers binary questions.
+Suppose our Salesman now has a magic map --- an oracle --- that only answers binary questions.
 But also shows them the shape of terrain.
 It reveals curves and gradients, costs and optimisations all as algebraic information.
 This new Oracle not only answers boolean problems it gives algebraic reasoning.
 In technical language: the oracle has been extended to allow access to a low-degree polynomial that agrees with the function from boolean input.
-The algorithm can now acces both the function and algebraic extension $\tilde{A}$.\\
+The algorithm can now access both the function and algebraic extension $\tilde{A}$.\\
 \vspace{0.3cm}
 This looked like the breakthrough we needed.
 After all, arithmetization had led to the remarkable result $\mathbf{IP = PSPACE}$, even though that result doesn't relativize \citep{arora2009}.
@@ -339,11 +338,11 @@ They constructed special oracles where:
 Meaning that any proof method that works when you give it an Oracle \textit{and} its algebraic extension - a method that \textit{algebrizes} - cannot resolve $\mathbf{P \ne NP}$.\\
 \vspace{0.3cm}
 \textbf{Metaphorically:}  
-It's like giving the Salesman a magical map that doesn't just point the way - it paints the whole landscape in equations.
+It's like giving the Salesman a magical map that doesn't just point the way --- it paints the whole landscape in equations.
 But even with this power, they still can't find a shortcut.
 No matter how detailed the map becomes, it doesn't contain the secret.
 \begin{quote}
-    “Algebrization unifies the strengths of relativization and arithmetization — and shows their combined limits.”\\
+    "Algebrization unifies the strengths of relativization and arithmetization --- and shows their combined limits.”\\
     - Adapted from \cite{arora2008algebrization}
 \end{quote}
 For some, this result was sobering.
@@ -360,7 +359,7 @@ When we combine these we get \textit{algebrization}.
 This was mentioned previously in our Prerequesite knowledge.
 
 \begin{quote}
-    “An algebrizing technique is one that works even when the algorithm can query both the function and its low-degree polynomial extension.”\\
+    "An algebrizing technique is one that works even when the algorithm can query both the function and its low-degree polynomial extension."\\
     - \cite{arora2008algebrization}
 \end{quote}
 A technique is formally said to \textit{algebrize} if it continues to work when both the Oracle $A$ and its low-degree extension $\tilde{A}$ are available.
@@ -384,17 +383,17 @@ This is where the optimism runs dry unfortunately.
 They showed us that techniques that combine the strengths of Oracles and algebraic resoning are not strong enough to resolve $\mathbf{P}$ versus $\mathbf{NP}$.  
 They constructed two oracles, $A$ and $B$, and their corresponding algebraic extensions $\tilde{A}$ and $\tilde{B}$, such that:
 \begin{itemize}
-    \item $\mathbf{P^A = NP^A}$ — relative to Oracle $A$, the two classes collapse
-    \item $\mathbf{P^B \ne NP^B}$ — relative to Oracle $B$, the separation holds
+    \item $\mathbf{P^A = NP^A}$ --- relative to Oracle $A$, the two classes collapse
+    \item $\mathbf{P^B \ne NP^B}$ --- relative to Oracle $B$, the separation holds
 \end{itemize}
 When algorithms were allowed to query the low-degree polynomial extensions $\tilde{A}$ and $\tilde{B}$, the results differed.
 This proved that any technique that works under algebraic Oracle access must fail to decide $\mathbf{P = NP}$.
 \begin{quote}
-    “The relativizing and arithmetizing barriers can be unified under the notion of algebrization — and this unified barrier still fails to separate complexity classes like $\mathbf{P}$ and $\mathbf{NP}$.”\\
+    “The relativizing and arithmetizing barriers can be unified under the notion of algebrization --- and this unified barrier still fails to separate complexity classes like $\mathbf{P}$ and $\mathbf{NP}$.”\\
     - \cite{arora2008algebrization}
 \end{quote}
 
-Our Salesman is now equipped with everything - a GPS that answers instantly and a map of highest resolution.
+Our Salesman is now equipped with everything --- a GPS that answers instantly and a map of highest resolution.
 Despite the armoury presented they still cannot prove the existance of an efficient way to visit all the towns.
 The tools are as advanced as possible, but the truth remains obscured.
 The significance of this result not only lied in its ability to reveal a new barrier but because it showed that even \textit{hybrid methods} were still not enough.
@@ -415,13 +414,13 @@ Even combinations of our most powerful techniques cannot resolve $\mathbf{P}$ vs
 It unifies two of the greatest successes of theoretical computer science then just as swiftly, sobers us with a swift defeat in the form of a new barrier.
 Displaying the true difficulty of $\mathbf{P}$ vs $\mathbf{NP}$
 \begin{quote}
-    “Any technique that algebrizes will fail to separate $\mathbf{P}$ from $\mathbf{NP}$. This suggests the need for fundamentally new ideas.”\\
+    "Any technique that algebrizes will fail to separate $\mathbf{P}$ from $\mathbf{NP}$. This suggests the need for fundamentally new ideas."\\
     - \cite[Ch. 20.4]{arora2009}
 \end{quote}
 \vspace{0.3cm}
 
 \section{What Does This Mean?}
-It means that if $\mathbf{P \ne NP}$ - and many believe it is (myself included) - the proof must lie somewhere we have not yet looked.
+It means that if $\mathbf{P \ne NP}$ --- and many believe it is (myself included) --- the proof must lie somewhere we have not yet looked.
 Somewhere beyond the barriers of this report.
 The road our Salesman needs does exist, but it is hidden behind walls our current tools cannot penetrate.
 This is not a failure for complexity theory.
@@ -438,7 +437,7 @@ This is not discouragement but a direction and foundation to guide the next gene
 \section{Why the Road Remains Untraveled}
 The heart of my project was the question "Why is the $\mathbf{P}$ vs $\mathbf{NP}$ problem still unresolved?"
 Our goal to understand how it resisted solution for over 50 years by some of history's greatest minds.
-Through the spectation of a travelling Salesment - inspired by an $NP$ problem (TSP) - we explored the best strategies computer science has developed to date.
+Through the spectation of a travelling Salesment - inspired by an $NP$ problem (TSP) --- we explored the best strategies computer science has developed to date.
 And through this metaphor, we saw why none of them are yet enough.
 Beginning with \textbf{Relativization} to \textbf{Natural Proofs} and their spiritual successor \textbf{Algebrization}.
 We came to the unfortunate Conclusion our techniques are not powerful enough.
@@ -450,7 +449,7 @@ Thus is the beauty of theoretical computer science and maths.
 Each "failure" refines our understanding and each limitation marks progress.
 Increasing our knowledge of things that cannot work will increase our knowledge of what might.
 \begin{quote}
-    "Barriers are not endpoints - they are waypoints. They tell us how far we've come, and where new paths must begin."\\
+    "Barriers are not endpoints --- they are waypoints. They tell us how far we've come, and where new paths must begin."\\
     -Inspired by themes in \cite{arora2009}
 \end{quote}
 The question of $\mathbf{P}$ versus $\mathbf{NP}$ remains one of the deepest in both Maths and Computer Science.
