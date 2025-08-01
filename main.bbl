@@ -5,24 +5,22 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[Arora et~al.(2009)Arora, Barak, and Wigderson]{arora2008algebrization}
+Sanjeev Arora, Boaz Barak, and Avi Wigderson.
+\newblock Algebrization: A new barrier in complexity theory.
+\newblock \emph{ACM Transactions on Computation Theory (TOCT)}, 1\penalty0 (1):\penalty0 1--54, 2009.
+\newblock Originally published as ECCC TR08-112.
+
 \bibitem[Arora and Barak(2009)]{arora2009}
 Sanjeev Arora and Boaz Barak.
 \newblock \emph{Computational Complexity: A Modern Approach}.
 \newblock Cambridge University Press, 2009.
 \newblock Relativization.
 
-\bibitem[Baker et~al.(1975)Baker, Gill, and Solovay]{baker1975relativizations}
-Theodore Baker, John Gill, and Robert Solovay.
-\newblock Relativizations of the p=?np question.
-\newblock \emph{SIAM Journal on Computing}, 4\penalty0 (4):\penalty0 431--442, 1975.
-\newblock URL \url{https://www.scribd.com/document/688253900/Relativizations-of-the-P-NP-Question-Original}.
-\newblock Relativization.
-
-\bibitem[Aaronson(2005)]{aaronson2005philosophers}
-Scott Aaronson.
-\newblock Why philosophers should care about computational complexity, 2005.
-\newblock URL \url{https://www.scottaaronson.com/papers/philos.pdf}.
-\newblock Relativization.
+\bibitem[Razborov and Rudich(1997)]{razborov1994}
+Alexander Razborov and Steven Rudich.
+\newblock Natural proofs.
+\newblock \emph{Journal of Computer and System Sciences}, 55\penalty0 (1):\penalty0 24--35, 1997.
 
 \bibitem[Fortnow(2009)]{fortnow2009status}
 Lance Fortnow.
@@ -31,15 +29,17 @@ Lance Fortnow.
 \newblock URL \url{https://www.cs.cmu.edu/~15326-f23/CACM-Fortnow.pdf}.
 \newblock Relativization.
 
-\bibitem[Razborov and Rudich(1997)]{razborov1994}
-Alexander Razborov and Steven Rudich.
-\newblock Natural proofs.
-\newblock \emph{Journal of Computer and System Sciences}, 55\penalty0 (1):\penalty0 24--35, 1997.
+\bibitem[Aaronson(2005)]{aaronson2005philosophers}
+Scott Aaronson.
+\newblock Why philosophers should care about computational complexity, 2005.
+\newblock URL \url{https://www.scottaaronson.com/papers/philos.pdf}.
+\newblock Relativization.
 
-\bibitem[Arora et~al.(2009)Arora, Barak, and Wigderson]{arora2008algebrization}
-Sanjeev Arora, Boaz Barak, and Avi Wigderson.
-\newblock Algebrization: A new barrier in complexity theory.
-\newblock \emph{ACM Transactions on Computation Theory (TOCT)}, 1\penalty0 (1):\penalty0 1--54, 2009.
-\newblock Originally published as ECCC TR08-112.
+\bibitem[Baker et~al.(1975)Baker, Gill, and Solovay]{baker1975relativizations}
+Theodore Baker, John Gill, and Robert Solovay.
+\newblock Relativizations of the p=?np question.
+\newblock \emph{SIAM Journal on Computing}, 4\penalty0 (4):\penalty0 431--442, 1975.
+\newblock URL \url{https://www.scribd.com/document/688253900/Relativizations-of-the-P-NP-Question-Original}.
+\newblock Relativization.
 
 \end{thebibliography}

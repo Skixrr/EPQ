@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.2)  1 AUG 2025 11:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.2)  1 AUG 2025 12:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -203,57 +203,66 @@ Package pdftex.def Info: CoverPhoto.jpg  used on input line 23.
 [1
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./CoverPhoto.jpg>]
-Chapter 1.
-<trivialTSP.png, id=11, 845.0772pt x 597.432pt>
-File: trivialTSP.png Graphic file (type png)
-<use trivialTSP.png>
-Package pdftex.def Info: trivialTSP.png  used on input line 34.
-(pdftex.def)             Requested size: 226.48395pt x 160.1146pt.
-<HarderTSP.png, id=13, 687.56876pt x 507.8975pt>
-File: HarderTSP.png Graphic file (type png)
-<use HarderTSP.png>
-Package pdftex.def Info: HarderTSP.png  used on input line 37.
-(pdftex.def)             Requested size: 226.48395pt x 167.29669pt.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 49.
-(c:/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 65.
+ (c:/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 49.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 65.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 49.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 65.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 49.
+(Font)              <12> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 49.
+(Font)              <8> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 49.
+(Font)              <6> on input line 65.
 
 
-[1
+[1]
+
+Package natbib Warning: Citation `baker1975' on page 2 undefined on input line 75.
+
+
+Package natbib Warning: Citation `aaronson2008algebrization' on page 2 undefined on input line 79.
+
+
+Overfull \hbox (70.51341pt too wide) in paragraph at lines 69--82
+[] 
+ []
+
+
+
+[2]
+Chapter 1.
+<trivialTSP.png, id=18, 845.0772pt x 597.432pt>
+File: trivialTSP.png Graphic file (type png)
+<use trivialTSP.png>
+Package pdftex.def Info: trivialTSP.png  used on input line 91.
+(pdftex.def)             Requested size: 226.48395pt x 160.1146pt.
+<HarderTSP.png, id=20, 687.56876pt x 507.8975pt>
+File: HarderTSP.png Graphic file (type png)
+<use HarderTSP.png>
+Package pdftex.def Info: HarderTSP.png  used on input line 94.
+(pdftex.def)             Requested size: 226.48395pt x 167.29669pt.
+
+
+[3
 
  <./trivialTSP.png> <./HarderTSP.png (PNG copy)>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 63.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 120.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[2{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
-
-[3]
-Chapter 2.
-
-
-[4
-
-]
+[4{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
 [5]
-Chapter 3.
+Chapter 2.
 
 
 [6
@@ -261,42 +270,54 @@ Chapter 3.
 ]
 
 [7]
+Chapter 3.
 
-[8]
+
+[8
+
+]
 
 [9]
+
+[10]
+
+[11]
 Chapter 4.
 
 
-[10
+[12
 
 ]
 
-[11]
+[13]
 
-[12]
+[14]
 Chapter 5.
 
 
-[13
+[15
 
 ]
 
-[14]
+[16]
 
-[15]
+[17]
 Chapter 6.
 (./main.bbl
 
-[16
+[18
 
 ]
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 18.
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 29.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
 
-[17
+Package natbib Warning: There were undefined citations.
+
+
+
+[19
 
 {c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}] (./Main.aux)
  ***********
@@ -305,18 +326,18 @@ L3 programming layer <2025-05-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2701 strings out of 467892
- 43046 string characters out of 5438323
+ 2703 strings out of 467892
+ 43104 string characters out of 5438323
  449641 words of memory out of 5000000
- 31219 multiletter control sequences out of 15000+600000
+ 31221 multiletter control sequences out of 15000+600000
  673809 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,65p,328b,318s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,8n,65p,328b,319s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Main.pdf (18 pages, 897234 bytes).
+Output written on Main.pdf (20 pages, 902538 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 132 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

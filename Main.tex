@@ -24,6 +24,63 @@
     \thispagestyle{empty}
 \end{titlepage}
 
+\section*{Project Foundations}
+\subsection*{Planning and Structure}
+Orignally scoped to explain the P vs NP problem to a non-mathematical audience by exploring the three core barriers.
+I underestimated the difficulty of sourcing accessibility material for algebrization.
+In order to adjust for this i allocated myself additional time to read Arora and Barak's treatment \cite{arora2008algebrization}.
+Then restructuring my draft to accomodate a dedicated prerequisite section.
+The use of LaTeX added complexity to the formatting phase, but also taught me new skills in document management and academic writing.
+I maintained a research log and planned section goals week by week, even using Git to allow a strong version control.
+The final version being read now differs from my initial outline, but reflects clear evolution of myself and the project.
+Progress was tracked using a weekly Gantt chart alongside an annotated research log.
+These allowed me to record changes and give priority to certain topics.
+This allowed me to identify metaphorical clarity's demand for precedence over technical depth, ensuring the final document was aligned to examiner criteria.
+
+\subsection*{Literature Review}
+This project draws upon a range of literature --- entirely academic --- in regards to complexity theory and foundational mathematics behind it.
+The primary source used as the textbook by Arora and Barak, \cite{arora2009}, offering rigorous definitions and strong explanations in technical detail of everything mentioned in this report.
+This is supported by the Razborov-Rudich paper, \cite{razborov1994}, formalising the concept of Natural Proof.
+Fortnow's paper, \cite{fortnow2009status}, was mandatory for my understanding of circuit complexity and the progression of techniques used.
+reflective work by \cite{aaronson2005philosophers} granted insight into the philosophical understanding of each barrier's result.
+These sources were selected due to their academic credibility, relevance and clarity.
+Where possible original papers were prioritised to ensure maximal accuracy ---  with secondary resources used to strengthen personal understanding to put such knowledge into this paper.
+Whilst some sources were seminal and authoritative, several alternatives were considered.
+Sipser's textbook was initially reviewed for its coverage of relativization, but was deemed too introductory for my project's goals.
+Similarly, more recent survey papers were considered, few offering deeper insights than Arora and Barak or Razborov-Rudich.
+The sources chosen therefore reflect not just authority but suitability for explanation and metaphor.
+Future versions of this work could benefit from incorporating more recent developments and derandomization literature.
+
+\subsection*{Skills and Personal Development}
+This project's completion had taught me more than theoretical complexity.
+Beginning with a surface-level understanding of P vs NP, developing the ability to explain cutting-edge research.
+Translating complext topics via analogy --- particularly with TSP --- deepened my respect in both communication and mathematics
+Avoiding the temptation to over-simplify proved almost a challenge.
+Finding the balance between accessibility and rigour was for me the hardest part of this project.
+Writing for an audience of people who aren't specialists pushed me to think more clearly and exposed personal gaps in understanding.
+Especially during my work on algebrization with scarce introductory treatments.
+If given more time, I would explore deeper into the connections between barriers and cryptographic assumptions.
+I'd also have liked to visualise the relationships between proof techniques and the limitations using an interactive model.
+This project has influenced my vision: now seeung theoretical computer science not as abstract theory, but a discipline blending logic and language with problem solving.
+In terms of transferable skills, I have gained fluency in \LaTeX{}, critically evaluated technical sources, and strengthened by ability to decompose problems.
+These skills have became valuable to my arsenal of problem solving methods.
+
+\section*{Timeline of Barrier Discoveries}
+\begin{tabular}{|c|c p{10cm}|}
+\hline
+\textbf{Year} & \textbf{Milestone} \\
+\hline
+1971 & \textit{P vs NP} question formalized \\
+\hline
+1975 & \textbf{Relativization barrier} formalized by Baker, Gill, and Solovay \cite{baker1975} \\
+\hline
+1994 & \textbf{Natural Proofs barrier} defined by Razborov and Rudich \cite{razborov1994} \\
+\hline
+2008 & \textbf{Algebrization barrier} introduced by Aaronson and Wigderson \cite{arora2009, aaronson2008algebrization} \\
+\hline
+\end{tabular}
+
+\newpage
 \chapter{Defining the Problem}
 \section{Introduction To Our Case Study}
 Throughout this paper I will be making references to a theoretical salesman.
