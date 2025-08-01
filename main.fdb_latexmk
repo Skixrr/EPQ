@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex main"] 1754045192.15561 "main.aux" "main.bbl" "main" 1754046070.98178 0
+["bibtex main"] 1754060847.77765 "main.aux" "main.bbl" "main" 1754060853.90592 0
   "./references.bib" 1753960937 2521 d23bf48d33603edeaf54df96a02bde35 ""
   "c:/texlive/2025/texmf-dist/bibtex/bst/natbib/unsrtnat.bst" 1748892996 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "main.aux" 1754046068 5399 516723a9bb0ba1135a10f3a25b05568f ""
+  "main.aux" 1754060851 5399 516723a9bb0ba1135a10f3a25b05568f ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1754046066.4556 "c:/Users/richi/OneDrive/Documents/GitHub/Classword/Main.tex" "Main.pdf" "Main" 1754046070.98257 0
+["pdflatex"] 1754060848.86167 "c:/Users/richi/OneDrive/Documents/GitHub/Classword/Main.tex" "Main.pdf" "Main" 1754060853.90678 0
   "CoverPhoto.jpg" 1753701013 270892 950b74a64c6b3c18b6f0e836b6179757 ""
   "HarderTSP.png" 1754038197 77189 a13e3d0aaec26d297272e77a1a317e12 ""
-  "Main.aux" 1754046068 5399 516723a9bb0ba1135a10f3a25b05568f "pdflatex"
-  "Main.tex" 1754046063 38169 60c685898ba7a9d3dcd651b69f5db13c ""
-  "c:/Users/richi/OneDrive/Documents/GitHub/Classword/Main.tex" 1754046063 38169 60c685898ba7a9d3dcd651b69f5db13c ""
+  "Main.aux" 1754060851 5399 516723a9bb0ba1135a10f3a25b05568f "pdflatex"
+  "Main.tex" 1754060841 38231 1bd4dcc6469accb7656d224a35a6f6e3 ""
+  "c:/Users/richi/OneDrive/Documents/GitHub/Classword/Main.tex" 1754060841 38231 1bd4dcc6469accb7656d224a35a6f6e3 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1748892261 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1748892261 2840 216e6e45ad352e2456e1149f28885bee ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1748892261 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -30,6 +30,7 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm" 1748892261 11880 ea60d06924270684e6f852f3141c992b ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmbx6.tfm" 1748892261 11852 eda7061aa4cc8552ba736dae866e4460 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmbx8.tfm" 1748892261 11868 731e03b24d399279cf9609d002110394 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm" 1748892261 11868 4f81e9b6033c032bdaf9884f4d7ef412 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm" 1748892261 11888 6841b91e46b65cf41a49b160e6e74130 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm" 1748892261 11948 fa976674f030491ad35532a8a1e37325 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmr6.tfm" 1748892261 11836 e3b6ce3e601aec94f64a536e7f4224d5 ""
@@ -41,6 +42,7 @@
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx8.pfb" 1748892261 125241 791aeb35ceacc2764a175b32709cc6a9 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb" 1748892261 30696 3da7e46ecf5615eedebd9f27dab4d9d7 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb" 1748892261 30635 833ec815d446ec453a4913fc26d24cbc ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb" 1748892261 119235 05e5c8d6d60439433e50047898c2c0e0 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb" 1748892261 113634 9384aebdf26f9881e046a4b5574566db ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb" 1748892261 119752 1bd8d06e4079df624bf59ce3ad7c9aa6 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb" 1748892261 122174 a2d5e73f396ddbeb3bdf5c79aea0993d ""
@@ -78,7 +80,7 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1748896904 5569470 f263a82cf6bb394f5bc87b63f38b78df ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1748897497 3598370 501aa4eea603fff3a992b68c2d4104c9 ""
   "c:/texlive/2025/texmf.cnf" 1748896833 713 e69b156964470283e0530f5060668171 ""
-  "main.bbl" 1754045193 1959 dcd383add55657c3716c5ee6d12afaf4 "bibtex main"
+  "main.bbl" 1754060848 1959 dcd383add55657c3716c5ee6d12afaf4 "bibtex main"
   "trivialTSP.png" 1754038305 526928 98a2ce4d09fdb0a38a8f2ab723b4d577 ""
   (generated)
   "Main.aux"
