@@ -1,45 +1,56 @@
-\begin{thebibliography}{6}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{xx}
 
-\bibitem[Arora et~al.(2009)Arora, Barak, and Wigderson]{arora2008algebrization}
-Sanjeev Arora, Boaz Barak, and Avi Wigderson.
-\newblock Algebrization: A new barrier in complexity theory.
-\newblock \emph{ACM Transactions on Computation Theory (TOCT)}, 1\penalty0 (1):\penalty0 1--54, 2009.
+\harvarditem{Aaronson}{2005}{aaronson2005philosophers}
+Aaronson, S.  \harvardyearleft 2005\harvardyearright , `Why philosophers should care about computational complexity'.
+\newblock Relativization.
+\newline\harvardurl{https://www.scottaaronson.com/papers/philos.pdf}
+
+\harvarditem{Arora \harvardand\ Barak}{2009}{arora2009}
+Arora, S. \harvardand\ Barak, B.  \harvardyearleft 2009\harvardyearright , {\em Computational Complexity: A Modern Approach}, Cambridge University Press.
+\newblock Relativization.
+
+\harvarditem[Arora et~al.]{Arora, Barak \harvardand\ Wigderson}{2009}{arora2008algebrization}
+Arora, S., Barak, B. \harvardand\ Wigderson, A.  \harvardyearleft 2009\harvardyearright , `Algebrization: A new barrier in complexity theory', {\em ACM Transactions on Computation Theory (TOCT)} {\bf 1}(1),~1--54.
 \newblock Originally published as ECCC TR08-112.
 
-\bibitem[Arora and Barak(2009)]{arora2009}
-Sanjeev Arora and Boaz Barak.
-\newblock \emph{Computational Complexity: A Modern Approach}.
-\newblock Cambridge University Press, 2009.
+\harvarditem[Baker et~al.]{Baker, Gill \harvardand\ Solovay}{1975}{baker1975relativizations}
+Baker, T., Gill, J. \harvardand\ Solovay, R.  \harvardyearleft 1975\harvardyearright , `Relativizations of the p=?np question', {\em SIAM Journal on Computing} {\bf 4}(4),~431--442.
 \newblock Relativization.
+\newline\harvardurl{https://www.scribd.com/document/688253900/Relativizations-of-the-P-NP-Question-Original}
 
-\bibitem[Razborov and Rudich(1997)]{razborov1994}
-Alexander Razborov and Steven Rudich.
-\newblock Natural proofs.
-\newblock \emph{Journal of Computer and System Sciences}, 55\penalty0 (1):\penalty0 24--35, 1997.
+\harvarditem{{Clay Mathematics Institute}}{2000}{claymillennium}
+{Clay Mathematics Institute}  \harvardyearleft 2000\harvardyearright , `Millennium prize problems'.
+\newline\harvardurl{https://www.claymath.org/millennium-problems/p-vs-np-problem}
 
-\bibitem[Fortnow(2009)]{fortnow2009status}
-Lance Fortnow.
-\newblock The status of the p versus np problem.
-\newblock \emph{Communications of the ACM}, 52\penalty0 (9):\penalty0 78--86, 2009.
-\newblock URL \url{https://www.cs.cmu.edu/~15326-f23/CACM-Fortnow.pdf}.
+\harvarditem{Cook}{1971}{cook1971}
+Cook, S.~A.  \harvardyearleft 1971\harvardyearright , `The complexity of theorem-proving procedures', {\em Proceedings of the Third Annual ACM Symposium on Theory of Computing (STOC)} pp.~151--158.
+
+\harvarditem{Fortnow}{2009}{fortnow2009status}
+Fortnow, L.  \harvardyearleft 2009\harvardyearright , `The status of the p versus np problem', {\em Communications of the ACM} {\bf 52}(9),~78--86.
 \newblock Relativization.
+\newline\harvardurl{https://www.cs.cmu.edu/~15326-f23/CACM-Fortnow.pdf}
 
-\bibitem[Aaronson(2005)]{aaronson2005philosophers}
-Scott Aaronson.
-\newblock Why philosophers should care about computational complexity, 2005.
-\newblock URL \url{https://www.scottaaronson.com/papers/philos.pdf}.
-\newblock Relativization.
+\harvarditem{Gödel}{1956}{godel1956}
+Gödel, K.  \harvardyearleft 1956\harvardyearright , `Letter to john von neumann'.
+\newblock English translation cited in Arora and Barak (2009), Section 1.1.
 
-\bibitem[Baker et~al.(1975)Baker, Gill, and Solovay]{baker1975relativizations}
-Theodore Baker, John Gill, and Robert Solovay.
-\newblock Relativizations of the p=?np question.
-\newblock \emph{SIAM Journal on Computing}, 4\penalty0 (4):\penalty0 431--442, 1975.
-\newblock URL \url{https://www.scribd.com/document/688253900/Relativizations-of-the-P-NP-Question-Original}.
-\newblock Relativization.
+\harvarditem{Held \harvardand\ Karp}{1962}{held1962}
+Held, M. \harvardand\ Karp, R.~M.  \harvardyearleft 1962\harvardyearright , `A dynamic programming approach to sequencing problems', {\em Journal of the Society for Industrial and Applied Mathematics} {\bf 10}(1),~196--210.
+
+\harvarditem{Karp}{1972}{karp1972}
+Karp, R.~M.  \harvardyearleft 1972\harvardyearright , Reducibility among combinatorial problems, {\em in} R.~E. Miller \harvardand\ J.~W. Thatcher, eds, `Complexity of Computer Computations', Plenum Press, pp.~85--103.
+
+\harvarditem{Khmaladze \harvardand\ Weil}{2008}{WeilDifferentiate}
+Khmaladze \harvardand\ Weil  \harvardyearleft 2008\harvardyearright , `Differentiation of sets - the general case'.
+
+\harvarditem{Razborov \harvardand\ Rudich}{1997}{razborov1994}
+Razborov, A. \harvardand\ Rudich, S.  \harvardyearleft 1997\harvardyearright , `Natural proofs', {\em Journal of Computer and System Sciences} {\bf 55}(1),~24--35.
+
+\harvarditem{Shamir}{1992}{shamir1992ip}
+Shamir, A.  \harvardyearleft 1992\harvardyearright , `Ip = pspace', {\em Journal of the ACM} {\bf 39}(4),~869--877.
+
+\harvarditem{Williams}{2022}{williams2022barriers}
+Williams, R.  \harvardyearleft 2022\harvardyearright , `Barriers are not limits', \url{https://www.scottaaronson.com/blog/?p=6316}.
+\newblock Guest post on Shtetl-Optimized Blog.
 
 \end{thebibliography}
