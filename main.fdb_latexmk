@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex main"] 1757449668.10255 "main.aux" "main.bbl" "main" 1757449673.53246 0
+["bibtex main"] 1759426149.93686 "main.aux" "main.bbl" "main" 1759426156.5411 0
   "./references.bib" 1757444620 5033 816df59c860dc6184e53339d10e0c5b7 ""
   "c:/texlive/2025/texmf-dist/bibtex/bst/harvard/agsm.bst" 1748891350 25549 e3d0f1ab4ae55e777f7352db30e2c6f7 ""
-  "main.aux" 1757449671 7070 3382bcdb0334284803b77a2af0fb28ed ""
+  "main.aux" 1759426154 6800 b61c66b489ba98871ab0cf4d83bd029e ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1757449669.00292 "c:/Users/richi/OneDrive/Documents/GitHub/Classword/Main.tex" "Main.pdf" "Main" 1757449673.53339 0
+["pdflatex"] 1759426151.19658 "c:/Users/richi/OneDrive/Documents/GitHub/Classword/Main.tex" "Main.pdf" "Main" 1759426156.54197 0
   "CoverPhoto.jpg" 1753701013 270892 950b74a64c6b3c18b6f0e836b6179757 ""
   "HarderTSP.png" 1754038197 77189 a13e3d0aaec26d297272e77a1a317e12 ""
-  "Main.aux" 1757449671 7070 3382bcdb0334284803b77a2af0fb28ed "pdflatex"
-  "Main.tex" 1757449664 48542 a66b8fe84e67f878de33d674749b2d52 ""
-  "c:/Users/richi/OneDrive/Documents/GitHub/Classword/Main.tex" 1757449664 48542 a66b8fe84e67f878de33d674749b2d52 ""
+  "Main.aux" 1759426154 6800 b61c66b489ba98871ab0cf4d83bd029e "pdflatex"
+  "Main.tex" 1759426138 40700 67f1accf28bfd141d1a9afaa74129409 ""
+  "c:/Users/richi/OneDrive/Documents/GitHub/Classword/Main.tex" 1759426138 40700 67f1accf28bfd141d1a9afaa74129409 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1748892261 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1748892261 2840 216e6e45ad352e2456e1149f28885bee ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1748892261 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -97,7 +97,7 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1748896904 5569470 f263a82cf6bb394f5bc87b63f38b78df ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1748897497 3598370 501aa4eea603fff3a992b68c2d4104c9 ""
   "c:/texlive/2025/texmf.cnf" 1748896833 713 e69b156964470283e0530f5060668171 ""
-  "main.bbl" 1757449668 3634 2a9b7938c7dd4c5e88a86ce7499e0a48 "bibtex main"
+  "main.bbl" 1759426151 3634 2a9b7938c7dd4c5e88a86ce7499e0a48 "bibtex main"
   "trivialTSP.png" 1754038305 526928 98a2ce4d09fdb0a38a8f2ab723b4d577 ""
   (generated)
   "Main.aux"

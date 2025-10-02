@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.2)  9 SEP 2025 21:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.2)  2 OCT 2025 18:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -263,79 +263,75 @@ Package pdftex.def Info: HarderTSP.png  used on input line 87.
  <./trivialTSP.png> <./HarderTSP.png (PNG copy)>]
 
 [3{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
-
-[4]
 Chapter 2.
 
 
-[5
+[4
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 172.
+(Font)              <17.28> on input line 140.
 
 
-[6]
+[5]
 Chapter 3.
 
 
-[7
+[6
 
 ]
+
+[7]
 
 [8]
 
 [9]
-
-[10]
-
-[11]
 Chapter 4.
 
 
-[12
+[10
 
 ]
 Chapter 5.
 
-Package natbib Warning: Citation `arora2008algebration' on page 13 undefined on input line 420.
+Package natbib Warning: Citation `arora2008algebration' on page 11 undefined on input line 331.
 
 
 
-[13
+[11
 
 ]
 
-[14]
+[12]
 
-[15]
+[13]
 Chapter 6.
 
 
-[16
+[14
 
 ]
 
-[17]
+[15]
 
-[18]
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 554.
+[16]
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 465.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[19
+[17
 
 ] (./main.bbl
 
-[20{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}]
+[18{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}]
 Underfull \hbox (badness 10000) in paragraph at lines 17--20
 \OT1/lmr/bx/n/12 URL: \OT1/lmr/m/it/12 https://www.scribd.com/document/688253900/Relativizations-of-the-P-NP-
  []
 
 )
 
-[21
+[19
 
 ]
 
@@ -343,7 +339,7 @@ Package natbib Warning: There were undefined citations.
 
 
 
-[22
+[20
 
 ] (./Main.aux)
  ***********
@@ -354,16 +350,16 @@ L3 programming layer <2025-05-26>
 Here is how much of TeX's memory you used:
  2897 strings out of 467892
  46098 string characters out of 5438323
- 453410 words of memory out of 5000000
+ 451410 words of memory out of 5000000
  31396 multiletter control sequences out of 15000+600000
  701549 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,9n,65p,660b,322s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Main.pdf (23 pages, 1005874 bytes).
+Output written on Main.pdf (21 pages, 998955 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
+ 155 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

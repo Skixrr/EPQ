@@ -87,58 +87,26 @@ A more complex instance:\\
 \includegraphics[width=0.5\textwidth]{HarderTSP.png}
 
 \section{Big O-Notation}
-Our Salesperson can go to towns in whichever order they wish.
-The order, however, will impact the speed at which they can complete the task.
-This is the rationale behind finding the shortest path.
-Think back to our trivial case for the Salesperson from their introduction.
-Now instead of traversing across the line we loop back repeatedly, using more steps than necessary.
-Whilst this will still allow the Salesperson to complete their rounds, they will have missed dinner and be very upset.
-Similarly, the time taken depends not just on the method, but also on who the Salesperson is or if they have a faster van.
-These factors make it impossible to measure an algorithm's speed purely in seconds.
-
-To address this, computer scientists use \textbf{Big-O Notation}, a mathematical way to describe how the number of steps an algorithm takes grows with the size of the input.
-For example, an algorithm with complexity $O(n)$ will perform at most a number of operations proportional to the length of the input list ($n$).
-An algorithm with $O(n^2)$ complexity might check each item against every other, leading to significant increase in steps.
-These expressions describe the algorithm's \textbf{asymptotic behaviour} --- that is, how it scales as inputs grow very large.
-When this growth follows a polynomial pattern like $O(n)$ or $O(n^2)$, we say it runs in \textbf{polynomial time}, generally considered efficient and tractable.
+Big-O notation describes how an algorithm's running time grows with input size. For input size $n$, an $O(n)$ algorithm scales linearly while $O(n^2)$ scales quadratically; polynomial-time algorithms ($O(n^k)$ for constant $k$) are considered tractable. Asymptotic notation abstracts machine-dependent constants and lower-order terms, enabling objective comparison of algorithmic efficiency.
 
 \section{Sets and Set Notation}
-Earlier, we used a Salesperson traversing across a map to explore algorithmic strategies.
-Mathematically, the list of towns can be viewed as a \textbf{set} --- a well-defined collection of distinct objects.
-Sets are fundamental within computer science and mathematics.
-A set can contain numbers, items, states, algorithms, or even other sets.
-For example, the set of paths includes every possible route our Salesperson could take.
-The set of solutions to a problem includes all algorithms that solve it.
-We describe relationships between sets and their elements using \textbf{Set notation}:
+A set is a well-defined collection of distinct objects. Useful symbols:
 \begin{itemize}
-    \item $\in$: “is an element of” (e.g., $3 \in \{1, 2, 3\}$ means 3 is in the set)
-    \item $\notin$: “is not an element of” (e.g., $4 \notin \{1, 2, 3\}$)
-    \item $\subseteq$: “is a subset of” (e.g., $\{1,2\} \subseteq \{1,2,3\}$)
-    \item $\cup$: union (e.g., $A \cup B$ contains all elements in $A$ or $B$)
-    \item $\cap$: intersection (e.g., $A \cap B$ contains only elements in both $A$ and $B$)
-    \item $\setminus$: set difference (e.g., $A \setminus B$ contains elements in $A$ but not in $B$)
+    \item $\in$ — element of (e.g., $3\in\{1,2,3\}$)
+    \item $\notin$ — not an element
+    \item $\subseteq$ — subset
+    \item $\cup,\ \cap$ — union, intersection
+    \item $\setminus$ — set difference
 \end{itemize}
 
 \section{P}
-The first set in our investigation is called \textbf{P}.
-This set contains all decision problems that can be solved by a deterministic Turing machine in polynomial time.
-Formally, a language $L$ is in $\mathbf{P}$ if there exists a deterministic Turing machine $M$ and a constant $k$ such that for all $x$, $M$ decides whether $x \in L$ in at most $O(|x|^k)$ steps.
+The class $\mathbf{P}$ contains decision problems decidable by a deterministic Turing machine in polynomial time. Formally, $L\in\mathbf{P}$ if some deterministic Turing machine $M$ decides membership in $L$ in time $O(|x|^k)$ for some constant $k$.
 
 \section{NP}
-The (potentially larger) set \textbf{NP} stands for \textbf{nondeterministic polynomial time}.
-This set contains all problems where a proposed solution can be \textit{verified} in polynomial time, even if finding that solution might be difficult.
-Consider back to our Salesperson: For non-trivial cases of the problem, finding the optimal path is \( O(n^2 2^n) \) --- we split the journey into detours and then find the optimal path using these \cite{held1962}.
-Meaning right now we cannot solve it in polynomial time, but it can be verified in such time.
-We know that $P \subseteq NP$ as for any problem we can solve efficiently, we must also verify efficiently.
-Whether or not these sets are actually equal is the essence of our central question.
+The class $\mathbf{NP}$ contains decision problems whose positive instances admit short certificates verifiable in polynomial time by a deterministic Turing machine. Formally, $L\in\mathbf{NP}$ if there exists a polynomial-time verifier $V(x,y)$ and polynomial $p$ such that $x\in L \iff \exists y, |y|\le p(|x|), V(x,y)=1$. Many natural combinatorial problems, including TSP, are NP-complete~\cite{karp1972,held1962}.
 
 \section{Our Question}
-This brings us to our guiding problem: \textbf{What is the relationship between $P$ and $NP$?}
-Mathematically, we know that $\mathbf{P} \subseteq \mathbf{NP}$, but we do not know whether $\mathbf{P} = \mathbf{NP}$~\cite{arora2009}.
-That is, we don't know whether every efficiently verifiable problem can also be efficiently solved.
-Some mathematicians believe $\mathbf{P = NP}$ --- implying that every hard-looking problem has a hidden efficient solution --- while others believe $\mathbf{P \neq NP}$, suggesting some problems are inherently hard to solve even if easy to check~\cite{claymillennium}.
-This project does not aim to resolve the question.
-Instead, we will explore \textit{why} it has remained unanswered for decades --- and examine the theoretical barriers that prevent us from settling it.
+The guiding problem is whether $\mathbf{P}=\mathbf{NP}$. We know $\mathbf{P}\subseteq\mathbf{NP}$, but equality remains open~\cite{arora2009}. This paper examines barriers that rule out broad classes of proof techniques rather than attempting a resolution.
 
 \newpage
 \chapter{Relativisation}
@@ -206,63 +174,6 @@ A property $\mathcal{\pi}$ is said to be \textbf{natural} if:
 
 Natural proofs are a class of techniques in circuit complexity that are both efficiently checkable and broadly applicable. These methods have been instrumental in establishing lower bounds, but their limitations are profound when considering the separation of P and NP. The following section defines natural proofs formally and outlines their impact on complexity theory.
 
-This concept can be illustrated by analogy\footnote{For example, an algorithm designed to detect AI-generated essays may be effective initially, but once its criteria are known, students can adapt their writing to evade detection. Similarly, if a detection method is too broad, it may incorrectly flag legitimate work.}. 
-Constructivity refers to the property that a method can be efficiently applied, while largeness means it applies to a significant portion of cases.
-This is best described by analogy.  
-Imagine you're an English teacher --- a strict one --- who sets an essay for homework every lesson. You begin to suspect several students are using AI to write their essays.  
-To catch them, you develop an algorithm that detects AI-generated writing.
-Maybe it looks for excessive use of em-dashes or unnatural phrasing.
-This algorithm is simple and can be applied to \textit{every} essay you mark.  
-However, once students realise how it works, they adapt their writing style to evade detection.  
-This captures the flaw with Constructivity: if your method is too effective and too public, it can be countered.
-Largeness suffers a related issue. If your detection method works on too \textit{many} types of cheating --- copied essays, paraphrasing, ChatGPT, etc. --- then you're likely catching even legitimate work, or again being too general to be reliable.
-\vspace{0.5cm}
-\newline
-We care whether a proof is \textit{natural} because many known lower-bound techniques are.  
-This becomes especially relevant when we're trying to prove the \textit{lower bound} (minimum time to run) of a function $f$ --- that is, the fastest possible way to compute $f$.  
-If we can do this, we may be able to show that $f \notin \mathbf{P}$.
-\vspace{0.5cm}
-\newline
-On the surface, this seems like the perfect tool: if a problem looks hard and we can formally show it resists all efficient solutions, we've made progress toward proving it's not in $\mathbf{P}$.
-But as we'll soon see, this tool cuts too deep --- and ends up breaking things we depend on, like cryptography.
-
-
-\section{Circuit Complexity}
-Before diving deeper into the limitations of Natural Proofs, we must take a step back and understand one of the main battlegrounds for proving $\mathbf{P \ne NP}$ --- \textbf{circuit complexity}.
-Refer to our Salesperson.
-Suppose instead of solving each map manually, they could build a dedicated machine for each map size --- a custom calculator of sorts made entirely of logic gates (AND, OR, NOT).
-This machine would take a list of towns and output the shortest route.
-In computational terms, this machine is a \textbf{Boolean circuit}.
-Circuits don't run sequentially like an algorithm.
-They are a set arrangement of gates that perform a binary operation.
-Each value of $n$ gets a separate circuit.
-We intend to keep these circuits small.
-If we can prove that no small circuit can satisfy a problem, we have proven that the problem does not lie in $P$.
-In doing so, proving $\mathbf{P \ne NP}$.
-\vspace{0.2cm}
-\textbf{Formally:}
-The \textit{circuit complexity} $C(f)$ of a Boolean function $f : \{0,1\}^n \rightarrow \{0,1\}$ is the size of the smallest Boolean circuit that computes $f$ correctly on all inputs.
-\vspace{0.1cm}
-Referring back to our Salesperson, if the smallest circuit they can build for the TSP grows faster than any polynomial in $n$, this proves that we need \textit{super-polynomial} resources.
-This would strongly suggest $\mathbf{P \ne NP}$.
-\vspace{0.2cm}
-Despite decades of mathematicians attempting to prove the lower bounds of problems in $\mathbf{NP}$, it has proven difficult.
-Many of the proof techniques used are considered \textit{Natural}.
-\begin{quote}
-    "If we can prove that no small circuit solves a problem, we show that even the smartest shortcut-the most efficient mental 'machine' --- won't help our Salesperson beat the clock."\\
-    - Inspired by~\cite{fortnow2009status}
-\end{quote}
-
-\section{Pseudorandom Functions}
-Pseudorandom Functions (PRFs) are a core idea in cryptography.  
-They are functions that look random, but are actually completely deterministic.  
-To anyone without the secret key, the outputs seem unpredictable --- even though they're generated by a fixed rule.
-This idea is essential for secure communication.  
-If you can't tell the difference between a random number and one generated by a PRF, then you also can't reverse-engineer passwords, decode messages, or guess encryption keys.
-Here's the link to Natural Proofs:  
-If a proof method is both constructive and large, it may inadvertently undermine cryptographic assumptions by distinguishing pseudorandom functions, which is undesirable.\footnote{This is analogous to a security scanner that is so sensitive it detects legitimate or confidential items, illustrating the unintended consequences of overly broad detection methods.}
-
-% Example in Natural Proofs section:
 This concept can be illustrated by analogy\footnote{For example, an algorithm designed to detect AI-generated essays may be effective initially, but once its criteria are known, students can adapt their writing to evade detection. Similarly, if a detection method is too broad, it may incorrectly flag legitimate work.}. 
 Constructivity refers to the property that a method can be efficiently applied, while largeness means it applies to a significant portion of cases.
 This is best described by analogy.  
