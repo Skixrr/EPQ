@@ -72,7 +72,7 @@ This showed the problem's relevance to a vast amount of people.
 The \textit{Clay Mathematics Institute}, upon recognising the importance of \textbf{$\mathbf{P}$ vs $\mathbf{NP}$}, included it as one of their seven "Millennium Prize Problems", offering \$1,000,000 for anyone who could provide a correct proof~\cite{claymillennium}.
 
 \section*{What are we doing?}
-Within this paper I intend to explain why the greatest minds have yet to solve a major problem within mathmatics.
+Within this paper I intend to explain why the greatest minds have yet to solve a major problem within mathematics.
 
 
 \newpage
@@ -376,10 +376,6 @@ This is not a failure for complexity theory.
 It's a challenge, a challenge to be met by future computer scientist and mathematicians.
 A new barrier does not close doors to discovery instead will leave an open window into the understanding of our world and maths itself.
 This is not discouragement but a direction and foundation to guide the next generation.
-\begin{quote}
-    "Algebrization subsumes the known barriers of relativization and natural proofs, and yet it too falls short of separating $\mathbf{P}$ from $\mathbf{NP}$. We must look elsewhere."\\
-    -\cite{arora2008algebrization}
-\end{quote}
 
 \newpage
 \chapter{Conclusion}
@@ -491,6 +487,15 @@ These skills have become valuable to my arsenal of problem solving methods.
     \item[Verifier] An algorithm that checks the validity of a proposed solution (certificate) for a decision problem.
     \item[Polynomial Time] Computation whose running time is bounded by a polynomial function of the input size.
     \item[Lower Bound] A proven minimum on the resources required to solve a problem, such as time or circuit size.
+    \item[IP] The class of decision problems solvable by an interactive proof system --- where a powerful prover convinces a polynomial-time verifier of a solution's correctness through a sequence of messages.
+    \item[IPSPACE] Equivalent to the class \textbf{PSPACE}, this characterises problems solvable by an interactive proof system and proven by Shamir to match the computational power of polynomial-space algorithms.
+    \item[Polynomial Time] Computation whose running time is bounded above by a polynomial function of the input size, such as $O(n)$ or $O(n^k)$ for some constant $k$. Problems in this class are generally considered tractable.
+    \item[Exponential Time] Computation whose running time grows exponentially with the input size, typically of the form $O(2^n)$ or $O(c^n)$ for some constant $c>1$. Such growth quickly becomes infeasible as input size increases.
+    \item[Decision Problem] A problem with a yes-or-no answer, typically phrased as: “Given input $x$, does it have property $P$?” Most complexity classes, including $\mathbf{P}$ and $\mathbf{NP}$, are defined in terms of decision problems.
+    \item[Super-Polynomial Time] Computation that grows faster than any polynomial, such as $n^{\log n}$ or $2^{\sqrt{n}}$, but not necessarily exponential. Problems requiring super-polynomial time are generally considered intractable.
+    \item[Exponential Time] Computation whose running time grows exponentially with the input size, typically of the form $O(2^n)$ or $O(c^n)$ for some constant $c > 1$. These algorithms become infeasible very quickly as input size increases.
+    \item[Sub-Exponential Time] A running time that grows faster than any polynomial but slower than any true exponential function, often written as $2^{o(n)}$. This class includes algorithms that are better than brute-force but still impractical at scale.
+
 \end{description}
 
 \end{document}
