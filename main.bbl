@@ -5,6 +5,14 @@ Aaronson, S.  \harvardyearleft 2005\harvardyearright , `Why philosophers should 
 \newblock Relativization.
 \newline\harvardurl{https://www.scottaaronson.com/papers/philos.pdf}
 
+\harvarditem{Aaronson}{2005--2024}{aaronsonBlog}
+Aaronson, S.  \harvardyearleft 2005--2024\harvardyearright , `Shtetl-optimized [blog]', Online Blog.
+\newblock \url{https://www.scottaaronson.com/blog/}.
+
+\harvarditem{Anderson}{2023}{CS101}
+Anderson, K.  \harvardyearleft 2023\harvardyearright , `Computer science 101: Learn computer science to become a better programmer and software engineer', Udemy Course.
+\newblock Introduction.
+
 \harvarditem{Arora \harvardand\ Barak}{2009}{arora2009}
 Arora, S. \harvardand\ Barak, B.  \harvardyearleft 2009\harvardyearright , {\em Computational Complexity: A Modern Approach}, Cambridge University Press.
 \newblock Relativization.
@@ -34,6 +42,10 @@ Fortnow, L.  \harvardyearleft 2009\harvardyearright , `The status of the p versu
 Gödel, K.  \harvardyearleft 1956\harvardyearright , `Letter to john von neumann'.
 \newblock English translation cited in Arora and Barak (2009), Section 1.1.
 
+\harvarditem{Hardesty}{2009}{MIT2009}
+Hardesty, L.  \harvardyearleft 2009\harvardyearright , `Explained: P vs. np', {\em MIT News} .
+\newblock Introduction.
+
 \harvarditem{Held \harvardand\ Karp}{1962}{held1962}
 Held, M. \harvardand\ Karp, R.~M.  \harvardyearleft 1962\harvardyearright , `A dynamic programming approach to sequencing problems', {\em Journal of the Society for Industrial and Applied Mathematics} {\bf 10}(1),~196--210.
 
@@ -43,11 +55,17 @@ Karp, R.~M.  \harvardyearleft 1972\harvardyearright , Reducibility among combina
 \harvarditem{Khmaladze \harvardand\ Weil}{2008}{WeilDifferentiate}
 Khmaladze \harvardand\ Weil  \harvardyearleft 2008\harvardyearright , `Differentiation of sets - the general case'.
 
+\harvarditem[Lund et~al.]{Lund, Fortnow, Karloff \harvardand\ Nisan}{1992}{lund1992algebraic}
+Lund, C., Fortnow, L., Karloff, H. \harvardand\ Nisan, N.  \harvardyearleft 1992\harvardyearright , `Algebraic methods for interactive proof systems', {\em Journal of the ACM} {\bf 39}(4),~859--868.
+
 \harvarditem{Razborov \harvardand\ Rudich}{1997}{razborov1994}
 Razborov, A. \harvardand\ Rudich, S.  \harvardyearleft 1997\harvardyearright , `Natural proofs', {\em Journal of Computer and System Sciences} {\bf 55}(1),~24--35.
 
 \harvarditem{Shamir}{1992}{shamir1992ip}
 Shamir, A.  \harvardyearleft 1992\harvardyearright , `Ip = pspace', {\em Journal of the ACM} {\bf 39}(4),~869--877.
+
+\harvarditem{Sipser}{2012}{sipser2012}
+Sipser, M.  \harvardyearleft 2012\harvardyearright , {\em Introduction to the Theory of Computation}, 3rd edn, Cengage Learning.
 
 \harvarditem{Williams}{2022}{williams2022barriers}
 Williams, R.  \harvardyearleft 2022\harvardyearright , `Barriers are not limits', \url{https://www.scottaaronson.com/blog/?p=6316}.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.2)  6 JAN 2026 19:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.2)  2 FEB 2026 19:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -134,30 +134,50 @@ Package: array 2025/05/19 v2.6i Tabular extension package (FMi)
 \TX@delta=\dimen165
 \TX@cols=\count288
 \TX@ftn=\toks22
-)
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 12.
+) (c:/texlive/2025/texmf-dist/tex/latex/ltablex/ltablex.sty
+Package: ltablex 2014/08/13 v1.1 Modified tabularx
+ (c:/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
+\LTleft=\skip58
+\LTright=\skip59
+\LTpre=\skip60
+\LTpost=\skip61
+\LTchunksize=\count289
+\LTcapwidth=\dimen166
+\LT@head=\box55
+\LT@firsthead=\box56
+\LT@foot=\box57
+\LT@lastfoot=\box58
+\LT@gbox=\box59
+\LT@cols=\count290
+\LT@rows=\count291
+\c@LT@tables=\count292
+\c@LT@chunks=\count293
+\LT@p@ftn=\toks23
+))
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 17.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count289
+\l__color_backend_stack_int=\count294
 ) (./Main.aux)
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -195,17 +215,17 @@ LaTeX Font Info:    ... okay on input line 12.
 
 (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count290
-\scratchdimen=\dimen166
-\scratchbox=\box55
-\nofMPsegments=\count291
-\nofMParguments=\count292
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count293
-\MPscratchDim=\dimen167
-\MPnumerator=\count294
-\makeMPintoPDFobject=\count295
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count295
+\scratchdimen=\dimen167
+\scratchbox=\box60
+\nofMPsegments=\count296
+\nofMParguments=\count297
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count298
+\MPscratchDim=\dimen168
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
+\everyMPtoPDFconversion=\toks25
 ) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -215,7 +235,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 <CoverPhoto.jpg, id=1, 642.4pt x 544.53438pt>
 File: CoverPhoto.jpg Graphic file (type jpg)
 <use CoverPhoto.jpg>
-Package pdftex.def Info: CoverPhoto.jpg  used on input line 25.
+Package pdftex.def Info: CoverPhoto.jpg  used on input line 30.
 (pdftex.def)             Requested size: 452.9679pt x 383.97157pt.
 
 
@@ -223,17 +243,17 @@ Package pdftex.def Info: CoverPhoto.jpg  used on input line 25.
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <./CoverPhoto.jpg>] (c:/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd) (c:/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd) (c:/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd)
 
-Package natbib Warning: Citation `baker1975' on page 1 undefined on input line 49.
+Package natbib Warning: Citation `baker1975' on page 1 undefined on input line 54.
 
 
-Package natbib Warning: Citation `aaronson2008algebrization' on page 1 undefined on input line 49.
+Package natbib Warning: Citation `aaronson2008algebrization' on page 1 undefined on input line 54.
 
 
-Overfull \hbox (3.97182pt too wide) in paragraph at lines 64--66
+Overfull \hbox (3.97182pt too wide) in paragraph at lines 69--71
  \OT1/lmr/bx/n/12 1971--Cook's For-mal-i-sa-tion[] \OT1/lmr/m/it/12 Stephen Cook\OT1/lmr/m/n/12 , an-other math-e-mati-cian, de-fined the prob-
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 72.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 77.
 (c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -241,20 +261,20 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 [1{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 Chapter 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 82.
+(Font)              <10> on input line 87.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 82.
+(Font)              <7> on input line 87.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 82.
+(Font)              <5> on input line 87.
 <trivialTSP.png, id=16, 845.0772pt x 597.432pt>
 File: trivialTSP.png Graphic file (type png)
 <use trivialTSP.png>
-Package pdftex.def Info: trivialTSP.png  used on input line 84.
+Package pdftex.def Info: trivialTSP.png  used on input line 89.
 (pdftex.def)             Requested size: 226.48395pt x 160.1146pt.
 <HarderTSP.png, id=18, 687.56876pt x 507.8975pt>
 File: HarderTSP.png Graphic file (type png)
 <use HarderTSP.png>
-Package pdftex.def Info: HarderTSP.png  used on input line 87.
+Package pdftex.def Info: HarderTSP.png  used on input line 92.
 (pdftex.def)             Requested size: 226.48395pt x 167.29669pt.
 
 
@@ -270,7 +290,7 @@ Chapter 2.
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 140.
+(Font)              <17.28> on input line 145.
 
 
 [5]
@@ -294,7 +314,7 @@ Chapter 4.
 ]
 Chapter 5.
 
-Package natbib Warning: Citation `arora2008algebration' on page 11 undefined on input line 331.
+Package natbib Warning: Citation `arora2008algebration' on page 11 undefined on input line 336.
 
 
 
@@ -313,27 +333,86 @@ Chapter 6.
 [14]
 
 [15]
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 461.
- (c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
-File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+Overfull \hbox (55.58842pt too wide) in alignment at lines 468--472
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (55.58842pt too wide) in alignment at lines 472--477
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (55.58842pt too wide) in alignment at lines 477--481
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (55.58842pt too wide) in alignment at lines 481--484
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (3.49321pt too wide) in paragraph at lines 498--498
+[]|\OT1/lmr/m/n/12 Razborov 
+ []
+
+
+Overfull \hbox (3.39339pt too wide) in paragraph at lines 528--528
+[]|\OT1/lmr/m/n/12 Aaronson 
+ []
+
+
+Overfull \hbox (3.39339pt too wide) in paragraph at lines 540--540
+[]|\OT1/lmr/m/n/12 Aaronson 
+ []
+
+
+Overfull \hbox (0.78186pt too wide) in paragraph at lines 552--552
+[]|\OT1/lmr/m/n/12 Hardesty 
+ []
+
+
+Overfull \hbox (3.39339pt too wide) in paragraph at lines 558--558
+[]|\OT1/lmr/m/n/12 Anderson 
+ []
+
+
+Overfull \hbox (12.14136pt too wide) in paragraph at lines 594--594
+[]|\OT1/lmr/m/n/12 Khmaladze 
+ []
+
+
+Overfull \hbox (55.58842pt too wide) in alignment at lines 484--600
+ [] [] [] [] 
+ []
+
+
 
 [16
 
-] (./main.bbl
+] [17]
 
-[17{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 17--20
+[18] (./main.bbl
+
+[19]
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 10.
+ (c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
 \OT1/lmr/bx/n/12 URL: \OT1/lmr/m/it/12 https://www.scribd.com/document/688253900/Relativizations-of-the-P-NP-
  []
 
-)
 
-[18
 
-]
+[20
 
-[19
+{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}])
+
+[21]
+
+[22
 
 ]
 
@@ -341,25 +420,25 @@ Package natbib Warning: There were undefined citations.
 
 
 
-[20] (./Main.aux)
+[23] (./Main.aux)
  ***********
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2897 strings out of 467892
- 46098 string characters out of 5438323
- 451404 words of memory out of 5000000
- 31396 multiletter control sequences out of 15000+600000
- 701549 words of font info for 81 fonts, out of 8000000 for 9000
+ 3053 strings out of 467892
+ 48623 string characters out of 5438323
+ 481246 words of memory out of 5000000
+ 31546 multiletter control sequences out of 15000+600000
+ 701238 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,9n,65p,660b,322s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Main.pdf (21 pages, 1005313 bytes).
+ 57i,9n,65p,660b,331s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on Main.pdf (24 pages, 987936 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
+ 165 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

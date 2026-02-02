@@ -47,6 +47,10 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/ltablex/ltablex.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/ltablex/ltablex.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -135,15 +139,14 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmri10.tfm
-INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
-INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
-INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmtt10.tfm
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
-INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc
+INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
+INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
+INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/rm-lmtt12.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc
 INPUT Main.aux
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx8.pfb
@@ -158,5 +161,4 @@ INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb
-INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb

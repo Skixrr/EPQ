@@ -6,45 +6,45 @@ Database file #1: references.bib
 Warning--I didn't find a database entry for "baker1975"
 Warning--I didn't find a database entry for "aaronson2008algebrization"
 Warning--I didn't find a database entry for "arora2008algebration"
-You've used 14 entries,
+You've used 19 entries,
             2909 wiz_defined-function locations,
-            726 strings with 6733 characters,
-and the built_in function-call counts, 39607 in all, are:
-= -- 6264
-> -- 527
+            755 strings with 7282 characters,
+and the built_in function-call counts, 53179 in all, are:
+= -- 8407
+> -- 714
 < -- 0
-+ -- 2837
-- -- 156
-* -- 3256
-:= -- 8279
-add.period$ -- 21
-call.type$ -- 14
-change.case$ -- 195
-chr.to.int$ -- 14
-cite$ -- 14
-duplicate$ -- 218
-empty$ -- 455
-format.name$ -- 202
-if$ -- 7068
++ -- 3817
+- -- 212
+* -- 4360
+:= -- 11151
+add.period$ -- 29
+call.type$ -- 19
+change.case$ -- 265
+chr.to.int$ -- 19
+cite$ -- 19
+duplicate$ -- 287
+empty$ -- 598
+format.name$ -- 269
+if$ -- 9475
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 11
-newline$ -- 56
-num.names$ -- 144
-pop$ -- 76
+missing$ -- 15
+newline$ -- 74
+num.names$ -- 195
+pop$ -- 106
 preamble$ -- 1
-purify$ -- 210
+purify$ -- 285
 quote$ -- 0
-skip$ -- 185
+skip$ -- 241
 stack$ -- 0
-substring$ -- 8605
-swap$ -- 41
-text.length$ -- 196
+substring$ -- 11550
+swap$ -- 49
+text.length$ -- 266
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 54
+type$ -- 72
 warning$ -- 0
-while$ -- 313
+while$ -- 420
 width$ -- 0
-write$ -- 190
+write$ -- 259
 (There were 3 warnings)

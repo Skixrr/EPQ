@@ -8,6 +8,11 @@
 \usepackage{natbib}
 \usepackage{url} % Add this line to handle URLs in bibliography
 \usepackage{tabularx} % Ensure this package is loaded for extended table functionality
+\usepackage{ltablex}
+\usepackage{longtable}
+\usepackage{array}
+\keepXColumns
+
 
 \begin{document}
 \begin{titlepage}
@@ -444,22 +449,166 @@ These allowed me to record changes and give priority to certain topics.
 This allowed me to identify metaphorical clarity's demand for precedence over technical depth, ensuring the final document was aligned to examiner criteria.
 
 \section*{Literature Review}
-This project draws upon a range of literature --- entirely academic --- in regards to complexity theory and foundational mathematics behind it.
-The primary source used as the textbook by Arora and Barak, \cite{arora2009}, offering rigorous definitions and strong explanations in technical detail of everything mentioned in this report.
-This is supported by the Razborov-Rudich paper, \cite{razborov1994}, formalising the concept of Natural Proof.
-Fortnow's paper, \cite{fortnow2009status}, was mandatory for my understanding of circuit complexity and the progression of techniques used.
-reflective work by \cite{aaronson2005philosophers} granted insight into the philosophical understanding of each barrier's result.
-These sources were selected due to their academic credibility, relevance and clarity.
-Where possible original papers were prioritised to ensure maximal accuracy ---  with secondary resources used to strengthen personal understanding to put such knowledge into this paper.
-Whilst some sources were seminal and authoritative, several alternatives were considered.
-Sipser's textbook was initially reviewed for its coverage of relativization, but was deemed too introductory for my project's goals.
-Similarly, more recent survey papers were considered, few offering deeper insights than Arora and Barak or Razborov-Rudich.
-The sources chosen therefore reflect not just authority but suitability for explanation and metaphor.
-Future versions of this work could benefit from incorporating more recent developments and derandomization literature.
 
-During the research phase of the project, I encountered newer papers such as "Barriers Are Not Limits"~\citep{williams2022barriers}, which provided reflective commentary on the state of complexity theory.  
-Additional sources, including Aaronson's blog, *Shtetl-Optimized* (Aaronson, 2005–2024)\footnote{See Scott Aaronson's blog, \textit{Shtetl-Optimized}: \url{https://www.scottaaronson.com/blog/}.}, were consulted for informal perspectives and clarification of technical concepts.  
-While the blog is academically rigorous, its depth and informality were not always suited to the scope of this project.
+This project draws upon a range of academic literature in computational complexity theory, focusing specifically on the historical development of the \textbf{P vs NP} problem and the theoretical barriers that obstruct its resolution.
+Priority was given to primary research papers that introduced or formalised key ideas—such as relativisation, natural proofs, and algebrization—alongside authoritative textbooks that synthesise and contextualise these results.
+Rather than surveying attempted solutions to \textbf{P vs NP}, the literature was selected to explain why broad classes of proof techniques have been shown to fail.
+
+\section*{Literature Review}
+
+{
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.2}
+
+\begin{longtable}{|
+  >{\raggedright\arraybackslash}p{0.10\textwidth}|
+  >{\raggedright\arraybackslash}p{0.15\textwidth}|
+  >{\raggedright\arraybackslash}p{0.39\textwidth}|
+  >{\raggedright\arraybackslash}p{0.39\textwidth}|
+}
+\hline
+\textbf{Ref.} & \textbf{Type} & \textbf{Key idea} & \textbf{Use} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Ref.} & \textbf{Type} & \textbf{Key idea} & \textbf{Use} \\
+\hline
+\endhead
+
+\hline
+\multicolumn{4}{r}{\small\textit{Continued on next page}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+\cite{arora2009} &
+Textbook &
+Provides a modern, rigorous treatment of computational complexity, including formal definitions of complexity classes, reductions, relativisation, natural proofs, arithmetization, and algebrization. &
+Primary foundational source used throughout the dissertation for definitions, structure, and technical accuracy across all barrier chapters. \\
+\hline
+
+\cite{baker1975relativizations} &
+Research paper &
+Introduces the relativisation barrier by constructing oracles relative to which $\mathbf{P = NP}$ and others relative to which $\mathbf{P \neq NP}$. &
+Core citation for the relativisation chapter, showing why oracle-respecting proof techniques cannot resolve $\mathbf{P}$ vs $\mathbf{NP}$. \\
+\hline
+
+\cite{razborov1994} &
+Research paper &
+Formalises Natural Proofs (constructivity and largeness) and shows why many circuit lower-bound techniques fail under standard cryptographic assumptions. &
+Backbone of the Natural Proofs chapter and justification for excluding broad lower-bound approaches. \\
+\hline
+
+\cite{fortnow2009status} &
+Survey &
+Overviews the status of the $\mathbf{P}$ vs $\mathbf{NP}$ problem, focusing on circuit complexity and historical progress. &
+Used for context: why lower bounds are difficult and why existing approaches have stalled. \\
+\hline
+
+\cite{arora2008algebrization} &
+Research paper &
+Introduces algebrization as a barrier unifying relativisation and arithmetization, showing even these strengthened methods cannot separate $\mathbf{P}$ and $\mathbf{NP}$. &
+Primary source for the algebrization chapter and the formal statement of the barrier. \\
+\hline
+
+\cite{shamir1992ip} &
+Research paper &
+Proves $\mathbf{IP = PSPACE}$, motivating algebraic (arithmetization) methods in complexity theory. &
+Used as prerequisite background to explain why algebraic techniques initially seemed promising. \\
+\hline
+
+\cite{lund1992algebraic} &
+Research paper &
+Develops algebraic methods for interactive proof systems, supporting the arithmetization framework. &
+Supplementary prerequisite material leading into algebrization. \\
+\hline
+
+\cite{aaronson2005philosophers} &
+Essay &
+Discusses philosophical implications of complexity barriers and limits of proof techniques. &
+Used sparingly to support reflective commentary, not as evidence for technical claims. \\
+\hline
+
+\cite{williams2022barriers} &
+Commentary &
+Argues barriers should be treated as signposts rather than absolute limits. &
+Used in the conclusion to frame barriers as constructive refinements of research direction. \\
+\hline
+
+\cite{aaronsonBlog} &
+Blog &
+Informal but detailed explanations and commentary on complexity theory. &
+Consulted for intuition/clarification only; not relied upon as a primary academic source. \\
+\hline
+
+\cite{sipser2012} &
+Textbook &
+Introductory text on computation, reductions, and NP-completeness. &
+Reviewed early on; not heavily used due to being too introductory for barrier-focused aims. \\
+\hline
+
+\cite{MIT2009} &
+Article &
+Public-facing explanation of $\mathbf{P}$ vs $\mathbf{NP}$. &
+Used only for introductory context; not for technical justification. \\
+\hline
+
+\cite{CS101} &
+Course &
+Introductory computer science material. &
+Used for early orientation; not used to support barrier arguments. \\
+\hline
+
+\cite{godel1956} &
+Letter &
+Early articulation of the verification vs construction intuition underlying $\mathbf{P}$ vs $\mathbf{NP}$. &
+Used for historical motivation in the introduction/timeline. \\
+\hline
+
+\cite{cook1971} &
+Conference paper &
+Formalises NP-completeness via the Cook--Levin theorem. &
+Used to ground the formal emergence of the $\mathbf{P}$ vs $\mathbf{NP}$ problem. \\
+\hline
+
+\cite{karp1972} &
+Conference chapter &
+Expands NP-completeness across many combinatorial problems. &
+Used to motivate the breadth/relevance of NP-completeness and connect to TSP. \\
+\hline
+
+\cite{held1962} &
+Research paper &
+Dynamic programming approach to sequencing problems, relevant historically to optimisation/TSP. &
+Used to support background discussion of TSP-style optimisation problems. \\
+\hline
+
+\cite{claymillennium} &
+Webpage &
+Identifies $\mathbf{P}$ vs $\mathbf{NP}$ as a Millennium Prize Problem. &
+Used to justify importance and prominence of the open problem. \\
+\hline
+
+\cite{WeilDifferentiate} &
+Research paper &
+Differentiation of sets in an abstract mathematical setting. &
+Referenced only in the personal opinion section as conceptual inspiration. \\
+\hline
+
+\end{longtable}
+}
+
+
+
+Arora and Barak's textbook \cite{arora2009} forms the technical backbone of the dissertation, providing consistent definitions and a coherent framework for presenting the three principal barriers.
+The core barrier results are anchored in their original formal statements: Baker, Gill, and Solovay for relativisation \cite{baker1975relativizations}, Razborov and Rudich for natural proofs \cite{razborov1994}, and Arora, Barak, and Wigderson for algebrization \cite{arora2008algebrization}.
+Supporting literature was used to improve context and explanation, including Fortnow's survey \cite{fortnow2009status} and classic interactive proof results \cite{shamir1992ip,lund1992algebraic}.
+Reflective commentary from Aaronson \cite{aaronson2005philosophers} and Williams \cite{williams2022barriers} was used to frame the implications of barriers without replacing technical justification.
+
+Several introductory or popular resources (e.g., \cite{sipser2012,MIT2009,CS101}) were consulted during the research phase but were not relied upon for technical claims, either due to being too introductory or because they are not peer-reviewed academic literature. Informal sources such as Aaronson's blog \cite{aaronsonBlog} were used only for clarification and intuition.
+A limitation of this literature base is the relative emphasis on established barrier results and a smaller engagement with more recent developments; future work could broaden this by incorporating additional modern research directions such as derandomisation and proof complexity. Nonetheless, the selected sources are well-suited for explaining why the problem has resisted solution and for supporting the dissertation’s central focus on proof barriers rather than proof attempts.
 
 \section*{Skills and Personal Development}
 This project's completion had taught me more than theoretical complexity.
