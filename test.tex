@@ -1,0 +1,97 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage[british]{babel}
+\usepackage{float}
+\usepackage{tabularx}
+
+
+\begin{document}
+\section{Motivation and Context}
+The $P$ vs $NP$ problem asks whether every decision problem whose solutions can be verified in \textbf{polynomial time} can also be solved in  such time.
+Despite 55 years of effort, no proof has resolved the postulate, suggesting that techniques a mathematician would traditionally rely on are insufficient.
+This motivates the exploration of alternative conceptual frameworks that, while not providing a resolution, may clarify why equality $P = NP$ appears implausible.
+One such intuition --- which from as far as I can tell is original --- arises from comparing the structural behavior of the classes $P$ and $NP$.
+Informally, problems in $P$ appear to enter the class in a gradual and uniform manner as computational resources increase, whereas problems in $NP$ often exhibit abrupt and sudden increases in complexity driven by \textbf{Combinatorial Explosion}.
+This asymmetry motivates the idea that $P$ and $NP$ may differ in how they "grow" as resource bounds are perturbed.
+Inspired by work on calculus on “finite set systems', this supplement develops a discrete analogue of differentiation applied to complexity classes.
+The resulting framework does not claim to resolve the $P vs NP$ problem but instead formalizes an intuition about structural change and sensitivity that supports the belief that $P \neq NP$.
+
+\section{A discrete Derivative on Complexity Classes}
+Let $\Sigma$ be a fixed finite alphabet and let $\mathcal{L}$ denote the set of all decision problems over $\Sigma$.
+For a complexity class $C \in \{P, NP\}$ and a polynomial time bound $p(n)$, define
+\[
+C_{\leq P(n)} = \{ L \in \mathcal{L} \mid L \text{ is decidable within time } O(p(n)) \}.
+\]
+We can define a discrete difference operator $\Delta_C$ by
+\[
+\Delta_C(p) = C_{\leq p(n+1)} \setminus C_{\leq p(n)}.
+\]
+This operator measures the set of problems that become solvable precisely when the available computational resource is incremented.
+Conceptually, $\Delta_C(p)$ plays the role of a derivative capturing the \textbf{rate of change} of the complexity class $C$ as the constraints are relaxed, and more problems enter $C$
+If two complexity classes are equal, then their derivatives should also be equal for all polynomial bounds $p(n)$, i.e., $\Delta_P(p) = \Delta_{NP}(p)$ for all $p$.
+This can be interpreted by display of a pair of graphs, one for $P$ and one for $NP$, where the x-axis represents the polynomial time bound, and the y-axis represents the number of problems in the class.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Graph.png}
+    \caption{A heuristic illustration of the growth of $P$ and $NP$ as a function of polynomial time bounds. The derivative $\Delta_C(p)$ corresponds to the slope of the curve at each point.}
+    \label{fig:graph}
+\end{figure}
+
+
+\section{Heuristic Evidence for Structural Separation}
+Although exact characterization of $\Delta_P(p)$ and $\Delta_{NP}(p)$ is not currently possible, their qualitative behaviour appears vastly different.
+Problems in $P$ are typically associated with algorithms whose time complexity scales predictably with input size, suggesting that $\Delta_P(p)$ is relatively stable across increments of $n$.
+By contrast, problems in $NP$ frequently involve \textbf{Combinatorial Structures} such as Boolean assignments, graph configurations, or certificate spaces whose size grows exponentially with input size.
+As a result, small increases in the available resources may admit a large increase of elements in $NP$, suggesting that $\Delta_{NP}(p)$ is larger or more irregular than $\Delta_P(p)$.
+This contrast mirrors the classical observation that verification is fundamentally less constrained than construction.
+When viewed through the lens of the delta operator, this asymmetry manifests as differing \textbf{rates of change} between the two classes.
+If such a disparity were invariant under reductions and encodings, it would imply that $P$ and $NP$ cannot be identical.
+
+\section{Non-Rigidity and Theoretical Barriers}
+Although the delta operator defined is mathematically \textbf{well-formed}, the argument presented here is non-rigid in the sense that it relies on structural intuition opposed to a formal separation theorem.
+In particular, no invariant is provided that guarantees that the behaviour of $\Delta_C(P)$ is preserved under polynomial-time reductions, padding, or alternative encodings.
+Furthermore, complexity theory contains well-established barriers to resolving the $P$ vs $NP$ problem.
+Results on \textbf{relativization, natural proofs, and algebrization} demonstrate that many structural or growth-based arguments cannot, by themselves, yield a distinction between $P$ and $NP$ with mathematical rigour.
+The present framework does not circumvent these barriers and must therefore be interpreted as exploratory rather than conclusive.
+Regardless, this derivative-based perspective provides a principled explanation for why the collapse of $P = NP$ appears unlikely.
+By translating informal intuitions about computational growth into a precise mathematical language, it clarifies the structural tension at the heart of the problem.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.22\textwidth} X}
+\hline
+\textbf{Term} & \textbf{Definition / Meaning} \\
+\hline
+Alphabet $\Sigma$ & A finite set of symbols (e.g.\ $\{0,1\}$). Inputs are finite strings over $\Sigma$, written $\Sigma^\ast$. \\
+\hline
+Language / Decision Problem $L$ & A subset $L \subseteq \Sigma^\ast$. Given an input string $x$, the decision problem asks whether $x \in L$ (YES/NO). \\
+\hline
+Input length $n$ & For an input string $x$, its length is $|x|=n$. Complexity bounds are measured as functions of $n$. \\
+\hline
+Polynomial time & A running time bounded by $O(n^k)$ for some constant $k$. Informally, ``efficient'' time as $n$ grows. \\
+\hline
+Combinatorial explosion & The phenomenon where the number of candidate configurations grows exponentially with $n$ (e.g.\ $2^n$ assignments for SAT), making search infeasible in general. \\
+\hline
+Polynomial bound $p(n)$ & A fixed polynomial function used as a time/resource budget. In this note, it parameterises the ``allowed resources'' for membership in a class. \\
+\hline
+Restricted class $C_{\le p(n)}$ & For $C \in \{P,NP\}$, the set of languages decidable within time $O(p(n))$ (under the chosen machine model). \\
+\hline
+Delta / ``Derivative'' $\Delta_C(p)$ & The discrete difference
+\[
+\Delta_C(p) = C_{\le p(n+1)} \setminus C_{\le p(n)},
+\]
+intended to capture which problems ``enter'' class $C$ when the resource bound increases from $n$ to $n\!+\!1$. \\
+\hline
+Polynomial-time reduction ($\le_p$) & A transformation from problem $A$ to $B$ computable in polynomial time such that $x\in A \Leftrightarrow f(x)\in B$. Used to compare problem difficulty and define completeness. \\
+\hline
+Padding & A technique that artificially increases input length (e.g.\ $x \mapsto x0^k$) to alter time bounds without changing the underlying decision. Important when discussing invariance of definitions. \\
+\hline
+\end{tabularx}
+\caption{Definitions used in the derivative-based framework and in standard statements of the $P$ vs $NP$ problem.}
+\end{table}
+
+
+\end{document}

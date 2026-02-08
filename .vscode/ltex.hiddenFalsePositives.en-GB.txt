@@ -1,0 +1,1 @@
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QResults on relativization, natural proofs, and algebrization demonstrate that many structural or growth-based arguments\\E$"}
