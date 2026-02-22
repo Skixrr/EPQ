@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.21)  8 FEB 2026 11:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.21)  22 FEB 2026 15:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Skixrr/Documents/GitHub/Classwork/test.tex
-(c:/Users/Skixrr/Documents/GitHub/Classwork/test.tex
+**c:/Users/Skixrr/Documents/GitHub/Classwork/PersonalAttempt.tex
+(c:/Users/Skixrr/Documents/GitHub/Classwork/PersonalAttempt.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-11>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
@@ -182,8 +182,8 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 ) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count299
-) (test.aux)
-\openout1 = `test.aux'.
+) (PersonalAttempt.aux)
+\openout1 = `PersonalAttempt.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
@@ -229,7 +229,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Graph.png, id=1, 844.65562pt x 459.21562pt>
 File: Graph.png Graphic file (type png)
 <use Graph.png>
-Package pdftex.def Info: Graph.png  used on input line 37.
+Package pdftex.def Info: Graph.png  used on input line 38.
 (pdftex.def)             Requested size: 241.49895pt x 131.29121pt.
 
 
@@ -239,7 +239,9 @@ Package pdftex.def Info: Graph.png  used on input line 37.
 
 [2 <./Graph.png>]
 
-[3] (test.aux)
+[3]
+
+[4] (PersonalAttempt.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-11>
@@ -247,16 +249,16 @@ L3 programming layer <2025-07-11>
  ) 
 Here is how much of TeX's memory you used:
  3834 strings out of 468149
- 59406 string characters out of 5441146
- 476269 words of memory out of 5000000
+ 59549 string characters out of 5441146
+ 476291 words of memory out of 5000000
  32406 multiletter control sequences out of 15000+600000
  629437 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,65p,356b,322s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,12n,65p,367b,322s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on test.pdf (3 pages, 208841 bytes).
+Output written on PersonalAttempt.pdf (4 pages, 210254 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -30,7 +30,8 @@ We can define a discrete difference operator $\Delta_C$ by
 \]
 This operator measures the set of problems that become solvable precisely when the available computational resource is incremented.
 Conceptually, $\Delta_C(p)$ plays the role of a derivative capturing the \textbf{rate of change} of the complexity class $C$ as the constraints are relaxed, and more problems enter $C$
-If two complexity classes are equal, then their derivatives should also be equal for all polynomial bounds $p(n)$, i.e., $\Delta_P(p) = \Delta_{NP}(p)$ for all $p$.
+If two complexity classes were identical, then any systematic method of measuring how problems enter those classes as resource bounds increase would necessarily yield identical behaviour.
+In this framework, that would imply that $\Delta_P(p)$ and $\Delta_{NP}(p)$ coincide for all polynomial bounds. The intuition was therefore that a persistent discrepancy in these “rates of change” might suggest structural separation.
 This can be interpreted by display of a pair of graphs, one for $P$ and one for $NP$, where the x-axis represents the polynomial time bound, and the y-axis represents the number of problems in the class.
 \begin{figure}[H]
     \centering
@@ -57,6 +58,9 @@ Results on \textbf{relativization, natural proofs, and algebrization} demonstrat
 The present framework does not circumvent these barriers and must therefore be interpreted as exploratory rather than conclusive.
 Regardless, this derivative-based perspective provides a principled explanation for why the collapse of $P = NP$ appears unlikely.
 By translating informal intuitions about computational growth into a precise mathematical language, it clarifies the structural tension at the heart of the problem.
+Therefore, while the framework is mathematically coherent, it fails to satisfy a central requirement of complexity-theoretic separation: invariance under polynomial-time reductions.
+Since complexity classes are defined extensionally via reductions rather than cardinality, any approach dependent on counting arguments risks mischaracterising structural equivalence.
+This realisation marked a turning point in the project, shifting emphasis from structural intuition to methodological constraint.
 
 \begin{table}[H]
 \centering

@@ -1,7 +1,7 @@
 PWD c:\Users\Skixrr\Documents\GitHub\Classwork
 INPUT C:\Users\Skixrr\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Skixrr\Documents\GitHub\Classwork\test.tex
-OUTPUT test.log
+INPUT c:\Users\Skixrr\Documents\GitHub\Classwork\PersonalAttempt.tex
+OUTPUT PersonalAttempt.log
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
@@ -59,10 +59,10 @@ INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\test.aux
-INPUT .\test.aux
-INPUT test.aux
-OUTPUT test.aux
+INPUT .\PersonalAttempt.aux
+INPUT .\PersonalAttempt.aux
+INPUT PersonalAttempt.aux
+OUTPUT PersonalAttempt.aux
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -92,12 +92,12 @@ INPUT .\Graph.png
 INPUT .\Graph.png
 INPUT .\Graph.png
 INPUT .\Graph.png
-OUTPUT test.pdf
+OUTPUT PersonalAttempt.pdf
 INPUT .\Graph.png
 INPUT .\Graph.png
 INPUT .\Graph.png
 INPUT C:\Users\Skixrr\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT test.aux
+INPUT PersonalAttempt.aux
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb

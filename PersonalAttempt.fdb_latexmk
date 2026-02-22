@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1770551855.30718 "c:/Users/Skixrr/Documents/GitHub/Classwork/test.tex" "test.pdf" "test" 1770551857.78081 0
+["pdflatex"] 1771774060.92169 "c:/Users/Skixrr/Documents/GitHub/Classwork/PersonalAttempt.tex" "PersonalAttempt.pdf" "PersonalAttempt" 1771774061.51137 0
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1233951854 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -53,11 +53,11 @@
   "C:/Users/Skixrr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1753132414 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Skixrr/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753132908 13244249 631a9b2f89452b38392ff06c067b6f32 ""
   "Graph.png" 1770551346 114227 c37c7e2ede73d0df0a512d2f107654cf ""
-  "c:/Users/Skixrr/Documents/GitHub/Classwork/test.tex" 1770551851 7612 45b75749558713fbc0a6af6b94e77810 ""
-  "test.aux" 1770551856 1179 3a8a9a311aeadef092001f0d1a836065 "pdflatex"
-  "test.tex" 1770551851 7612 45b75749558713fbc0a6af6b94e77810 ""
+  "PersonalAttempt.aux" 1771774061 1179 4e5ab20fff76ccbdc04f5f4b0fd38ac5 "pdflatex"
+  "PersonalAttempt.tex" 1771774060 8373 cbf28d9c4d2210fd27dd68607761dc8f ""
+  "c:/Users/Skixrr/Documents/GitHub/Classwork/PersonalAttempt.tex" 1771774060 8373 cbf28d9c4d2210fd27dd68607761dc8f ""
   (generated)
-  "test.aux"
-  "test.log"
-  "test.pdf"
+  "PersonalAttempt.aux"
+  "PersonalAttempt.log"
+  "PersonalAttempt.pdf"
   (rewritten before read)
