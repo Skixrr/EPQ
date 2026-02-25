@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.2)  25 FEB 2026 18:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.2)  25 FEB 2026 19:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -348,50 +348,50 @@ Package pdftex.def Info: MindMap.png  used on input line 73.
 [6]
 
 [7]
-
-[8]
-<Gantt.png, id=41, 1014.79124pt x 553.31718pt>
+<Gantt.png, id=38, 1014.79124pt x 553.31718pt>
 File: Gantt.png Graphic file (type png)
 <use Gantt.png>
-Package pdftex.def Info: Gantt.png  used on input line 372.
+Package pdftex.def Info: Gantt.png  used on input line 328.
 (pdftex.def)             Requested size: 498.26744pt x 271.67657pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 372--373
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 328--329
  [][] 
  []
 
 
 
+[8 <./Gantt.png>]
+
 [9]
 
-[10 <./Gantt.png>]
-
-[11]
-
-[12]
-Overfull \hbox (1.97212pt too wide) in paragraph at lines 478--479
+[10]
+Overfull \hbox (1.97212pt too wide) in paragraph at lines 434--435
 []\OT1/lmr/m/n/12 Initially, the prob-lem ap-peared as an ex-tremely dif-fi-cult but iso-lated the-o-rem. Through
  []
 
 
 
-[13]
+[11]
 
-[14]
-Overfull \hbox (40.50891pt too wide) in paragraph at lines 558--559
+[12]
+
+[13]
+Overfull \hbox (40.50891pt too wide) in paragraph at lines 545--546
 \OT1/lmr/m/n/12 sary to un-der-stand the pre-cise lim-i-ta-tions es-tab-lished by Baker{Gill{Solovay or Razborov{Rudich. 
  []
 
 
 
-[15]
-Overfull \hbox (1.35567pt too wide) in paragraph at lines 578--579
+[14]
+Overfull \hbox (1.35567pt too wide) in paragraph at lines 565--566
 \OT1/lmr/m/n/12 Cook's 1971 pa-per in-tro-duces the con-cept of NP-completeness and proves that the Boolean
  []
 
 
 
-[16{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+[15{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+
+[16]
 
 [17]
 
@@ -404,31 +404,31 @@ Overfull \hbox (1.35567pt too wide) in paragraph at lines 578--579
 [21]
 
 [22]
-
-[23]
-Overfull \hbox (13.62961pt too wide) in paragraph at lines 953--954
+Overfull \hbox (13.62961pt too wide) in paragraph at lines 940--941
 []\OT1/lmr/m/n/12 Aaronson{Wigderson as-sumes un-der-stand-ing of arith-meti-sa-tion and in-ter-ac-tive proofs. 
  []
 
 
 
-[24]
-Overfull \hbox (10.69066pt too wide) in paragraph at lines 993--994
+[23]
+Overfull \hbox (10.69066pt too wide) in paragraph at lines 980--981
 \OT1/lmr/m/n/12 The class $\OML/lmm/m/it/12 IP$ \OT1/lmr/m/n/12 con-sists of lan-guages that ad-mit in-ter-ac-tive proof sys-tems, where a polynomial-
  []
 
 
 
+[24]
+
 [25]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 1086.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 1086.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 1086.
+
 
 [26]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 1099.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 1099.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 1099.
-
 
 [27]
 
@@ -437,13 +437,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [29]
 
 [30]
-
-[31]
-Overfull \hbox (4.32765pt too wide) in paragraph at lines 1315--1316
+Overfull \hbox (4.32765pt too wide) in paragraph at lines 1302--1303
 []\OT1/lmr/m/n/12 Rather than read-ing the book lin-early, I con-sulted spe-cific chap-ters as re-quired through-
  []
 
 
+
+[31]
 
 [32]
 
@@ -452,35 +452,36 @@ Overfull \hbox (4.32765pt too wide) in paragraph at lines 1315--1316
 [34]
 
 [35]
-
-[36]
-Overfull \hbox (31.26205pt too wide) in paragraph at lines 1538--1539
+Overfull \hbox (31.26205pt too wide) in paragraph at lines 1525--1526
 []\OT1/lmr/m/n/12 This transition---from function-level al-ge-braic ex-ten-sion to class-level struc-tural sensitivity---
  []
 
+
+
+[36]
 <Graph.png, id=136, 844.65562pt x 459.21562pt>
 File: Graph.png Graphic file (type png)
 <use Graph.png>
-Package pdftex.def Info: Graph.png  used on input line 1556.
+Package pdftex.def Info: Graph.png  used on input line 1543.
 (pdftex.def)             Requested size: 317.07614pt x 172.3876pt.
 
 
-[37]
-
-[38 <./Graph.png>]
-Overfull \hbox (2.80194pt too wide) in paragraph at lines 1593--1594
+[37 <./Graph.png>]
+Overfull \hbox (2.80194pt too wide) in paragraph at lines 1580--1581
 \OT1/lmr/m/n/12 The cen-tral flaw in the deriva-tive ap-proach lies in its de-pen-dence on time-bound parametri-
  []
 
 
 
-[39]
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 1655.
+[38]
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 1642.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[40{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}]
+[39{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}]
+
+[40]
 
 [41]
 
@@ -503,13 +504,13 @@ L3 programming layer <2025-05-26>
 Here is how much of TeX's memory you used:
  3722 strings out of 467892
  56823 string characters out of 5438323
- 465238 words of memory out of 5000000
+ 465237 words of memory out of 5000000
  32206 multiletter control sequences out of 15000+600000
  678747 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,7n,65p,616b,235s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on SupplimentaryResearch.pdf (48 pages, 568878 bytes).
+Output written on SupplimentaryResearch.pdf (48 pages, 571011 bytes).
 PDF statistics:
  235 PDF objects out of 1000 (max. 8388607)
  152 compressed objects within 2 object streams
